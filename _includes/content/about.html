@@ -1,0 +1,147 @@
+<style>
+.k-friend {
+    text-decoration: none;
+}
+.about-header{
+    width: 100%;
+     margin:0 auto;
+    height:auto;
+}
+.about-header img{
+width: 100%;
+height: 200px;
+}
+.about-top{
+text-align:center;
+/*    -webkit-box-shadow:0 0 10px #999;  
+  -moz-box-shadow:0 0 10px #999;  
+  box-shadow:0 0 10px #999;  */
+  padding: 2px
+}
+.about-comment{
+    width: auto;
+    height: auto;
+    background: #fff;
+   -webkit-box-shadow:0 0 10px #999;  
+  -moz-box-shadow:0 0 10px #999;  
+  box-shadow:0 0 10px #999;  
+}
+.about-content{
+     width: 400px;
+        margin:0 auto;
+        height:auto;
+    padding-left: 36px;
+    color: #333;
+}
+
+.my-card{
+    position: relative;
+    overflow: hidden;
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2);
+}
+</style>
+<div class="k-posts-list"></div>
+<div class="mdui-container">
+    <div class="mdui-row-sm-2 mdui-row-md-4">
+    <!-- 个人头像 -->
+        <div class="my-card">
+            <div class="about-header">
+                <img src="/town.jpg" alt="">
+            </div>
+      </div>
+<!-- 基本信息 -->
+    
+        <div class="about-comment">
+                        <div class="my-card">
+                            <div class="about-header">
+                                <div class="about-top">
+                                        <H3> 基本信息</H3>
+                                </div>
+                               <div class="about-content">
+                                        <h4>昵称:Town or Townwang</h4>
+                                       <h4>姓名:王振镇</h4>
+                                       <h4>性别:男</h4>
+                                       <h4>出生年月:1993-03-01</h4>
+                                       <h4>毕业院校:陕西邮电职业技术学院</h4>
+                               </div>
+                            </div>
+                        </div>
+                <!-- 兴趣爱好 -->
+                        <div class="my-card">
+                            <div class="about-header">
+
+                                <div class="about-top">
+                                        <H3> 兴趣爱好</H3>
+                                </div>
+                                 <div class="about-content">
+                                        <h4>  宅在家  、   玩博客  、  搞软件  、 看科技</h4>
+                               </div>
+                            </div>
+                        </div>
+                <!-- 技术知识 -->
+                        <div class="my-card">
+                            <div class="about-header">
+                                 <div class="about-top">
+                                        <H3> 技术知识</H3>
+                                </div>
+                                 <div class="about-content">
+                                        <h4>H5</h4>
+                                       <h4>JAVA</h4>
+                                       <h4>Andorid</h4>
+                                       <h4>JavaScript</h4>
+                                       <h4>Kotlin(学习ing)</h4>
+                                         <h4>SQLite</h4>
+                                           <h4>MySQl</h4>
+                                             <h4>Sql Server</h4>
+                               </div>
+                            </div>
+                        </div>
+                <!-- 联系方式 -->
+                        <div class="my-card">
+                            <div class="about-header">
+                                     <div class="about-top">
+                                        <H3> 联系方式</H3>
+                                </div>
+                                 <div class="about-content">
+                                        <h4>邮箱:android@townwang.com</h4>
+                                       <h4>微博:王振镇</h4>
+                                       <h4>facebook:王振镇</h4>
+                                       <h4>Twitter:Townwang</h4>
+                                       <h4>QQ:854295033</h4>
+                               </div>
+                            </div>
+                        </div>
+                <!-- 人生理想 -->
+                        <div class="my-card">
+                            <div class="about-header">
+                                       <div class="about-top">
+                                        <H3> 人生理想</H3>
+                                </div>
+                                 <div class="about-content">
+                                       <h4>成为传说中的大牛!</h4>
+                               </div>
+                            </div>
+                        </div>
+                         <!-- 友情链接 -->
+                        <div class="my-card">
+                            <div class="about-header">
+                                       <div class="about-top">
+                                        <H3> 申请友链</H3>
+                                </div>
+                                 <div class="about-content">
+                                       <h4>统一如下格式:</h4>
+                                        <h4>名称:文科中的技术宅</h4>
+                                         <h4>链接:http://townwang.com</h4>
+                                          <h4>头像:http://townwang.com/assets/images/favicon.png</h4>
+                                           <h4>描述:身在文科心在技术!</h4>
+                                           
+                               </div>
+                            </div>
+                        </div>
+              {% include comment/comment.html %}
+        </div>
+    </div>
+</div>

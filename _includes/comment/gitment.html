@@ -1,0 +1,15 @@
+<div style="padding:0px 16px;" id="comments"></div>
+<script>
+  setTimeout(function () {
+        var gitment = new Gitment({
+            id: '{{page.path}}',
+            owner: '{{site.data.site.comment.owner}}',
+            repo: '{{site.data.site.comment.repo}}',
+            oauth: {
+                client_id: '{{site.data.site.comment.client_id}}',
+                client_secret: '{{site.data.site.comment.client_secret}}',
+            },
+        });
+        gitment.render('comments');
+    }, 1000)
+</script>

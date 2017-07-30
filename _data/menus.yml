@@ -1,0 +1,11 @@
+- name: 首页
+  url: /
+  icon: home
+- name: 关于
+  url: /about
+  icon: "&#xe853;"
+- name: 友情链接
+  url: /friends
+  icon: "&#xe8a3;"
+- name: navSearch
+  switch: true

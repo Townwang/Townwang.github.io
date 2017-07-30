@@ -1,0 +1,60 @@
+title:  # Meng title
+  switch: true # Meng title switch
+  visible: "背景音乐播放ing..." # State is visible text
+  hidden:  "背景音乐暂停~" # State is hidden text
+  with_default_title: true # with default title
+  reset_time: 1000 # If state is visible , reset default title times(ms)
+
+cursor: # 鼠标
+  switch: false # Meng cursor switch
+  auto_url: "https://ooo.0o0.ooo/2017/06/12/593ea1901c930.png" # State is auto style
+  pointer_url: "https://ooo.0o0.ooo/2017/06/12/593ea3612fd77.png" # State is pointer style
+
+console: # Meng console info
+  switch: true # Meng console info switch
+  theme_info: true # output theme info
+  text: "Copyright © 2017 Town" # text
+  color: "#fff" # text color
+  background: "#1abc9c" # background color
+
+header: # Meng header color + theme-color
+  switch: true
+
+background: # 内容页
+  switch: true
+  background: "#f5f9fc"
+  transparent_header: false
+  transparent_footer: false
+  text_color: '#000'
+
+card: # Meng card
+  switch: true
+  background_color: 'rgba(255, 255, 255, 1.0)'
+  card_img_opacity: '0.8'
+
+live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
+  switch: false
+  model: "/assets/live2d/koharu/koharu.model.json" # model.json path
+  drag: true # is drag ?
+  in_mobile: false
+  width: 130 # canvas width
+  height: 190 # canvas height
+  bottom: 100 # canvas bottom
+  leftOrRight: "right" # left or right
+  offset: 10 # offset
+
+aplayer:
+  switch: true
+  button_color: "#1abc9c"
+  music:
+    title: 'The Mass'
+    author: 'era'
+    url: '/assets/music/TheMass.mp3'
+    pic: 'http://p4.music.126.net/8dzD62VK8jLDbhEqkmpIAg==/18277181788626198.jpg?param=130y130'
+
+head_card:
+  switch: true
+  left_img: "https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg"
+  left_text: "『 · 如果程序是女孩 』"
+  right_img: "/assets/images/favicon.png"
+  offset_level: 2

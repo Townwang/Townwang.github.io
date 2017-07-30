@@ -1,0 +1,25 @@
+
+<footer class="mdui-m-t-5">
+    <div class="mdui-footer">
+        <div class="mdui-card-content mdui-shadow-0 mdui-p-a-5">
+            <div class="mdui-container">
+                <div class="mdui-row-sm-3 k-footer-sns">
+                    <div class="mdui-col">
+                        <div class="mdui-row">
+                            {% for sns in site.data.sns %}
+                            {% if sns.url != null %}
+                            <div class="mdui-col-xs-4 mdui-col-sm-3 mdui-col-md-2 ">
+                                <a href="{{sns.url}}"><div class="mdui-center k-footer-icon k-{{ sns.name }}"></div></a>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="mdui-col mdui-text-center" style="line-height:48px">
+                        Copyright ©<script>var fd=new Date;document.write("&nbsp;"+fd.getFullYear()+"&nbsp;")</script> {{site.title}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

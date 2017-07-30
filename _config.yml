@@ -1,0 +1,27 @@
+title: "文科中的技术宅"
+description: "Town's Share Space!"
+url: townwang.com
+baseurl: ""
+author: "Town"
+paginate: 5
+paginate_path: "/blog/page:num/"
+canvas_nest: true
+
+permalink: /:title
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+theme: ekyll-theme-mdui
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - package.json
+  - node_modules
+  - README.md
+
+encoding: UTF-8

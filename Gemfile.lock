@@ -62,11 +62,11 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
- Townwang.github.io
+  jekyll-theme-mdui
   tzinfo-data
 
 RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.14.6
+   1.15.3

@@ -13,7 +13,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
 
-theme: ekyll-theme-mdui
+theme: Townwang.github.io
 
 exclude:
   - package.json

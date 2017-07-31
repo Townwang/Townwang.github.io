@@ -1,7 +1,7 @@
 {
-  "name": "Townwang.github.io",
+  "name": "Town",
   "version": "0.5.0",
-  "description": "一个文科中的技术宅,学文科,爱技术!",
+  "description": "Town's Blog!!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,8 @@
     "软件汉化",
     "软件开发",
     "技术宅",
-    "Town"
+    "Town",
+    "文科中的技术宅"
   ],
   "author": "Town",
   "license": "MIT",

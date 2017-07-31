@@ -4,7 +4,7 @@ url: townwang.com
 baseurl: ""
 author: "Town"
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 canvas_nest: true
 
 permalink: /:title

@@ -61,4 +61,4 @@ google_analytics: ""  # google analytics code
 
 lang: "zh-CN"  # lang
 
-deploy: "Townwang" # if you used coding pages
+deploy: "coding" # if you used coding pages

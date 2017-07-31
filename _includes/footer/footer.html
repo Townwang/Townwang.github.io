@@ -18,6 +18,11 @@
                     <div class="mdui-col mdui-text-center" style="line-height:48px">
                         Copyright ©<script>var fd=new Date;document.write("&nbsp;"+fd.getFullYear()+"&nbsp;")</script> {{site.title}}
                     </div>
+                    <div class="mdui-col mdui-text-center mdui-typo">
+                        {% if site.data.site.deploy == "coding" %}
+                        <div><p class="mdui-m-b-0">Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p></div>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>

@@ -40,7 +40,7 @@ body,header{
 .k-container{
     margin: 0 auto;
     width: 100%;
-    max-width: 900px;
+    max-width: 80%;
     flex-shrink: 0;
 }
 .k-posts-list {

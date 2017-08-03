@@ -7,5 +7,3 @@
 - name: 友情链接
   url: /friends
   icon: "&#xe8a3;"
-- name: navSearch
-  switch: true

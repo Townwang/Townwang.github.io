@@ -18,22 +18,6 @@ text-align:center;
   box-shadow:0 0 10px #999;  */
   padding: 2px
 }
-.about-comment{
-    width: auto;
-    height: auto;
-    background: #fff;
-   -webkit-box-shadow:0 0 10px #999;  
-  -moz-box-shadow:0 0 10px #999;  
-  box-shadow:0 0 10px #999;  
-}
-.about-content{
-     width: 400px;
-        margin:0 auto;
-        height:auto;
-    padding-left: 36px;
-    color: #333;
-}
-
 .my-card{
     position: relative;
     overflow: hidden;
@@ -53,100 +37,82 @@ text-align:center;
               <img class="mdui-img-fluid" src="/town.jpg"/>
             </div>
       </div>
+<div class="mdui-container mdui-typo a">
+  <div class="mdui-panel" mdui-panel="{accordion: true}">
 <!-- 基本信息 -->
-    
-        <div class="about-comment">
-                        <div class="my-card">
-                            <div class="about-header">
-                                <div class="about-top">
-                                        <H3> 基本信息</H3>
-                                </div>
-                               <div class="about-content">
-                                        <h4>昵称:Town or Townwang</h4>
-                                       <h4>姓名:王振镇</h4>
-                                       <h4>性别:男</h4>
-                                       <h4>出生年月:1993-03-01</h4>
-                                       <h4>毕业院校:陕西邮电职业技术学院</h4>
-                               </div>
-                            </div>
-                        </div>
-                <!-- 兴趣爱好 -->
-                        <div class="my-card">
-                            <div class="about-header">
-
-                                <div class="about-top">
-                                        <H3> 兴趣爱好</H3>
-                                </div>
-                                 <div class="about-content">
-                                        <h4> 宅在家  、
-                                                    玩博客  、
-                                                        搞软件  、
-                                                            看科技、
-                                                                学技术、
-                                                                    爱分享</h4>
-                               </div>
-                            </div>
-                        </div>
-                <!-- 技术知识 -->
-                        <div class="my-card">
-                            <div class="about-header">
-                                 <div class="about-top">
-                                        <H3> 技术知识</H3>
-                                </div>
-                                 <div class="about-content">
-                                        <h4>H5（熟练）、
-                                                JAVA（熟练）、
-                                                    Andorid（熟练）、
-                                                        Kotlin(学习ing)  、
-                                                            SQLite（熟练）、
-                                                                JavaScript（入门）、
-                                                                    PHP（忘完了）</h4>
-                               </div>
-                            </div>
-                        </div>
-                <!-- 联系方式 -->
-                        <div class="my-card">
-                            <div class="about-header">
-                                     <div class="about-top">
-                                        <H3> 联系方式</H3>
-                                </div>
-                                 <div class="about-content">
-                                        <h4>邮箱:android@townwang.com</h4>
-                                       <h4>微博:王振镇</h4>
-                                       <h4>facebook:王振镇</h4>
-                                       <h4>Twitter:Townwang</h4>
-                                       <h4>QQ:854295033</h4>
-                               </div>
-                            </div>
-                        </div>
-                <!-- 人生理想 -->
-                        <div class="my-card">
-                            <div class="about-header">
-                                       <div class="about-top">
-                                        <H3> 人生理想</H3>
-                                </div>
-                                 <div class="about-content">
-                                       <h4>成为传说中的大牛!</h4>
-                               </div>
-                            </div>
-                        </div>
-                         <!-- 友情链接 -->
-                        <div class="my-card">
-                            <div class="about-header">
-                                       <div class="about-top">
-                                        <H3> 申请友链</H3>
-                                </div>
-                                 <div class="about-content">
-                                       <h4>统一如下格式:</h4>
-                                        <h4>名称:文科中的技术宅</h4>
-                                         <h4>链接:http://townwang.com</h4>
-                                          <h4>头像:http://townwang.com/assets/images/favicon.png</h4>
-                                           <h4>描述:身在文科心在技术!</h4>
-                                           
-                               </div>
-                            </div>
-                        </div>
-              {% include comment/comment.html %}
-        </div>
+    <div class="mdui-panel-item">
+      <div class="mdui-panel-item-header"><H3>基本信息</H3></div>
+      <div class="mdui-panel-item-body">
+        <p>昵称: Town or Townwang</p>
+        <p>性别:男</p>
+        <p>爱好:女</p>
+        <p>年龄:年方三八</p>
+        <p>职业:码农</p>
+        <p>婚否:尚无婚配、如有良配、还望介绍！</p>
+      </div>
     </div>
+    <div class="mdui-panel-item">
+      <div class="mdui-panel-item-header"><h3>兴趣爱好</h3></div>
+      <div class="mdui-panel-item-body">
+        <p>吃饭、睡觉、看帖子</p>
+        <p>躺着、坐着、学技术</p>
+        <p>闲了、待着、敲代码</p>
+        <p>忙了、工作、改BUG</p>
+        <p>下班、晚上、录视频</p>
+        <p>周末、宅着、写博客</p>
+      </div>
+    </div>
+    <div class="mdui-panel-item">
+      <div class="mdui-panel-item-header"><h3>技术知识</h3></div>
+      <div class="mdui-panel-item-body">
+        <p>[html]人人必备基础知识,就不说了!</p>
+        <p>[css]又是必备有木有?</p>
+        <p>[JavaScript]基础不全,没有学完</p>
+        <p>[Java]一般一般,凑合能混</p>
+        <p>[Android]靠这吃饭,得下功夫</p>
+        <p>[Sql]了解一点基础,不提也罢</p>
+        <p>[Git]凑合会用,命令不熟</p>
+         <p>[PHP]基础忘光,没去复习</p>
+        <p>[Kotlin]新语言,还没学</p>
+      </div>
+    </div>
+
+      <div class="mdui-panel-item">
+      <div class="mdui-panel-item-header"><h3>人生理想</h3></div>
+      <div class="mdui-panel-item-body">
+        <p>迟早有一天,我要成为牛逼哄哄的大神!</p>
+        <p>迟早有一天,我要找到个好对象!</p>
+        <p>迟早有一天,我要翻身奔小康!</p>
+        <p>迟早有一天.......</p>
+        <p>算了ing...</p>
+        <p>说多了都是泪!码农不容易啊!</p>
+      </div>
+    </div>
+<div class="mdui-panel-item">
+      <div class="mdui-panel-item-header"><h3>联系方式</h3></div>
+      <div class="mdui-panel-item-body">
+        <p>邮箱:<a href="#">android@townwang.com</a></p>
+        <p>微博:<a href="#">王振镇</a></p>
+        <p>facebook:<a href="#">王振镇</a></p>
+        <p>Twitter:<a href="#">Townwang</a></p>
+          <p>GitHub:<a href="#">Townwang</a></p>
+            <p>Google:<a href="#">android@townwang.com</a></p>
+      </div>
+    </div>
+      <div class="mdui-panel-item">
+      <div class="mdui-panel-item-header"><h3>友链申请</h3>   ps:统一格式点击查看</div>
+      <div class="mdui-panel-item-body">
+        <p>名称：文科中的技术宅</p>
+        <p>链接：<a href="http://townwang.com">http://townwang.com</a></p>
+        <p>头像链接:http://townwang.com/assets/images/favicon.png</p>
+        <p>描述:出身文科,从事技术!</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 评论 -->
+<div class="my-card">
+       {% include comment/comment.html %}    
+</div>
+</div>
 </div>

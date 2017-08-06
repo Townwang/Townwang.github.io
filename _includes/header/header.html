@@ -184,6 +184,12 @@
     color: rgb(255, 255, 255);
 }
 </style>
+
+
+
+
+
+
 <header mdui-headroom class="mdui-appbar mdui-shadow-0 mdui-appbar-fixed">
     <div class="mdui-toolbar">
         <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-hidden-sm-up" mdui-drawer="{target: '#k-menu'}"><i class="mdui-icon material-icons">&#xe5d2;</i></a>
@@ -196,6 +202,10 @@
         <a href="{{menu.url | prepend: site.baseurl }}" class="mdui-btn mdui-ripple {% if menu.url  == page.url %}mdui-list-item-active{% endif %}">{{menu.name}}</a>
         {% endif %}
         {% endfor %}
+
+<!--         {% for cat in site.categories %}
+        <a href="{{site.baseurl}}/#{{cat | first}}" class="mdui-btn mdui-ripple">{{cat | first}}</a>
+        {% endfor  %} -->
         </div>
         {% if navSearch == true %}
         <div class="mdui-textfield k-navsearch-btn mdui-textfield-expandable">

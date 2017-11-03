@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <ul>
 {% for post in site.categories.android %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}

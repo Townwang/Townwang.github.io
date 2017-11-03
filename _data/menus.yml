@@ -1,6 +1,9 @@
 - name: 首页
   url: /
   icon: home
+- name: Android
+  url:/android.html
+  icon: 
 - name: 关于
   url: /about
   icon: "&#xe853;"

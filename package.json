@@ -1,40 +1,19 @@
 {
-  "name": "Town",
-  "version": "0.5.0",
-  "description": "Town's Blog!!",
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Townwang/Townwang.github.io.git"
-  },
-  "keywords": [
-    "文科生",
-    "软件美化",
-    "软件破解",
-    "软件加密",
-    "软件汉化",
-    "软件开发",
-    "技术宅",
-    "Town",
-    "文科中的技术宅"
-  ],
-  "author": "Town",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Townwang/Townwang.github.io/issues"
-  },
-  "homepage": "https://github.com/Townwang/Townwang.github.io#readme",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-util": "^3.0.8"
+    "gulp-uglify": "^2.1.2"
   },
-  "dependencies": {
-    "gitment": "0.0.3"
-  }
+  "dependencies": {}
 }

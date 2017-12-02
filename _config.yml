@@ -1,25 +1,66 @@
-title: "文科中的技术宅"
-description: "一个文科中的技术宅,学文科,爱技术!"
-url: townwang.com
-baseurl: ""
-author: "Town"
-paginate: 5
-paginate_path: "/page:num/"
-canvas_nest: true
+# Site settings 配置站点
+title: '文科中的技术宅'
+description: '吾乃Town,逢时不利,选错文理,学文出身,却爱技术,一路艰辛走过.终踏入技术大门,于此分享我之心得,望前人指导,望后人借鉴.'
+keyword: 'Town,TownWang,文科,技术宅,文科中的技术宅,Android,开发者,研发,程序员'
+url: 'http://townwang.com' # your host
 
-permalink: /:title
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
-exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
-  - Gemfile
-  - package.json
-  - node_modules
-  - README.md
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
-encoding: UTF-8
+# Author 配置博主信息
+author: 'Town'
+nickname: 'Town'
+bio: 'Android开发者,软件破解,美化,爱好者&文科中的技术宅'
+avatar: '/assets/img/profile.png'
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments
+disqus: false
+disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  weibo: '//weibo.com/zgadc'
+  juejin: ''
+  instagram: ''
+  github: '//github.com/Townwang'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+RSS: false
+
+# Plugins
+gems: [jekyll-paginate]

@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Android ADB 常用命令"
-date:   2017-08-26 09:57:00 +0700
+date:   2017-08-26 
 categories: 记录
 tags: 命令
-img: https://i.loli.net/2017/08/26/59a0d5dd0396e.png
+author: Town
+cover: https://i.loli.net/2017/08/26/59a0d5dd0396e.png
 ---
 
  >> ADB很强大，记住一些ADB命令有助于提高工作效率。

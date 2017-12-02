@@ -1,4 +1,0 @@
----
-layout: android
-permalink: /android
----

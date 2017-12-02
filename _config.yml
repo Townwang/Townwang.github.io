@@ -24,10 +24,6 @@ search: true
 # Night mode
 nightMode: true
 
-# Comments
-disqus: false
-disqus_url: 'https://liaokeyu.disqus.com/embed.js'
-
 # Share
 social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']

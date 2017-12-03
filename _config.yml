@@ -37,8 +37,8 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   weibo: '//weibo.com/zgadc'
-  juejin: ''
-  instagram: ''
+  twitter: ''
+  linkedin: ''
   github: '//github.com/Townwang'
 
 # Tags 设置标签
@@ -55,7 +55,7 @@ permalink: /:title
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
+input: GFM
 
 RSS: false
 

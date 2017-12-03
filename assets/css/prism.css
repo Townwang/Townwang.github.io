@@ -5,7 +5,7 @@
  * @author Town
  */
 
-/*code[class*="language-"],
+code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
 	background: none;
@@ -28,7 +28,7 @@ pre[class*="language-"] {
 	hyphens: none;
 }
 
-/* Code blocks */
+/* Code blocks 
 pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;

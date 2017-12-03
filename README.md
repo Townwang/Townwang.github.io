@@ -1,4 +1,4 @@
-![](/assets/img/profile.png)
+![](/town.jpg)
 
 # 博客地址
 

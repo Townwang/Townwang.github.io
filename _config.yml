@@ -9,9 +9,9 @@ baseurl: ''
 
 # Navigation links
 nav:
-  友情: '/link.html'
-  标签: '/tags.html'
   首页: '/'
+  标签: '/tags.html'
+  友情: '/link.html'
 
 # Author 配置博主信息
 author: 'Town'

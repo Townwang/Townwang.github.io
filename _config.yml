@@ -11,7 +11,7 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'
-  links: '/'
+  友情链接: '/'
 
 # Author 配置博主信息
 author: 'Town'

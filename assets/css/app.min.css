@@ -22,25 +22,16 @@
     white-space: nowrap;
     box-sizing: border-box;
     opacity: .8;
+
     transition: .2s;
 }
-.new-card li:hover {
-    padding: 6px 18px;
-    margin-bottom: 0;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    box-sizing: border-box;
-    opacity: .8;
-        background-color: transparent;
-    color: #fff;
-    transition: .2s;
+.new-card li a {
+    font-size: 16px;
+    color: #4E4E4E; 
 }
-   .night-mode .new-card li:last-child {
+   .night-mode .new-card li a:last-child {
     border-color: rgba(255, 255, 255, 0.1); }
-  .night-mode  .new-card li:hover{
+  .night-mode  .new-card li a:hover{
     background-color: transparent;
     color: #fff; }
     

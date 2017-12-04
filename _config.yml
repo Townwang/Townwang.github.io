@@ -9,7 +9,7 @@ baseurl: ''
 
 # Navigation links
 nav:
-  A-首页: '/pages/index.html'
+  A-首页: '/'
   B-标签: '/pages/tags.html'
   C-友情: '/pages/link.html'
 

@@ -19,8 +19,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    border-left: 1px solid #e7eaf1;
-    border-right: 1px solid #e7eaf1;
     box-sizing: border-box;
     opacity: .8;
     transition: .2s;

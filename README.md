@@ -34,7 +34,10 @@
      |    |   └── layouts.scss # 响应式布局
     └── gulpfile.js # 自动化任务脚本
     └── index.html # 模板首页
-    └── tags.html # 标签页面
+    └── android.html # 安卓开发页面
+    └── tutorial.html # 实用教程页面
+    └── resources.html # 资源收集页面
+    └── life.html # 生活感悟页面
     └── 404.html # 404页面
     └── link.html # 友情页面
     └── README.md # github项目说明文件

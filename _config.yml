@@ -9,10 +9,7 @@ baseurl: ''
 
 # Navigation links
 nav:
-  电脑软件: '/computer.html'
-  版本控制: '/git.html'
-  手机软件: '/phone.html'
-  美化软件: '/beautify.html'
+  资源收集: '/resources.html'
   生活感悟: '/life.html'
   实用教程: '/tutorial.html'
   安卓开发: '/android.html'

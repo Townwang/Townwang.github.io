@@ -71,7 +71,7 @@ Python
 
 采用Github issues 
 
-感谢@mamboer 开源 [地址](https://github.com/imsun/gitment)
+感谢@mamboer 开源 [地址](https://github.com/gitalk/gitalk)
 
 
 

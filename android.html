@@ -82,6 +82,21 @@ description: 我开发中学习到的知识!
             </section>
             {% endif %}
         </div>
+
+<section class="tags-card">
+<ul>
+{% for post in site.posts limit:10 %}
+  <li>
+    <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </li>
+{% endfor %}  
+</ul>
+</section>
+
+
+
         {% if site.search %}
         <div class="search-card">
             <input id="search_input" type="text" placeholder="搜索...">

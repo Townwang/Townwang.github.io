@@ -21,4 +21,7 @@ padding:6px 18px;margin-bottom:0;width:100%;display:block;overflow:hidden;text-o
   .night-mode  .new-card .new-hot .new:hover{
     background-color: transparent;
     color: #fff; }
+    .new-title{
+        text-align: center;
+    }
     

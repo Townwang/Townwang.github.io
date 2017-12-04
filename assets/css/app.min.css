@@ -38,9 +38,9 @@
     color: #fff;
     transition: .2s;
 }
-   .night-mode .new-card .new-card ul .new-card li:last-child {
+   .night-mode .new-card li:last-child {
     border-color: rgba(255, 255, 255, 0.1); }
-  .night-mode .new-card .new-card ul .new-card li:hover{
+  .night-mode  .new-card li:hover{
     background-color: transparent;
     color: #fff; }
     

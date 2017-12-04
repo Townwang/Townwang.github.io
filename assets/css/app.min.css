@@ -2,7 +2,7 @@
 * @Author: Town
 * @Date:   2017-12-05 01:29:40
 * @Last Modified by:   Town
-* @Last Modified time: 2017-12-05 01:30:06
+* @Last Modified time: 2017-12-05 01:55:01
 */
 @font-face {
     font-family:Merriweather;src:url(../fonts/Merriweather-Black.ttf)
@@ -1541,20 +1541,35 @@ a {
 }
 
 .new-card .new-hot {
-padding:6px 18px;margin-bottom:0;width:100%;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;box-sizing:border-box;opacity:.8;transition:.2s
+    padding:6px 18px;
+    margin-bottom:0;
+    width:100%;
+    display:block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    box-sizing:border-box;
+    opacity:.8;
+    transition:.2s
 }
 .new-card .new-hot .new {
     font-size: 16px;
     color: #4E4E4E; 
 }
-   .night-mode .new-card .new-hot .new:last-child {
+.night-mode .new-card .new-hot .new:last-child {
     border-color: rgba(255, 255, 255, 0.1); }
-  .night-mode  .new-card .new-hot .new:hover{
+
+.night-mode  .new-card .new-hot .new:hover{
     background-color: transparent;
     color: #fff; }
-    .new-title{
-        text-align: center;
-        font-size: 20px;
-    margin-bottom: 20px;
+.new-title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 9px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e7eaf1;
     }
+.night-mode .new-title {
+    border-bottom: 1px solid rgba(255,255,255,.1)
+}
     

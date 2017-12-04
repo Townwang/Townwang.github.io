@@ -9,11 +9,15 @@ baseurl: ''
 
 # Navigation links
 nav:
-  『首页』: '/'
-  『标签』: '/tags.html'
-  『关于』: '/about.html'
-  『友链』: '/link.html'
-  『测试』: '/test.html'
+  『电脑软件』: '/computer.html'
+  『版本控制』: '/git.html'
+  『手机软件』: '/phone.html'
+  『美化软件』: '/beautify.html'
+  『生活感悟』: '/life.html'
+  『实用教程』: '/tutorial.html'
+  『安卓开发』: '/android.html'
+  『我的信息』: '/about.html'
+  『友情链接』: '/link.html'
 
 
 # Author 配置博主信息

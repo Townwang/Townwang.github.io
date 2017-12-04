@@ -2,7 +2,7 @@
 layout: post
 title:  "Android ADB 常用命令"
 date:   2017-08-26 
-categories: 记录
+categories: android
 tags: 命令
 author: Town
 cover: https://i.loli.net/2017/08/26/59a0d5dd0396e.png

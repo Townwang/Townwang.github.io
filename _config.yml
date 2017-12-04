@@ -9,12 +9,12 @@ baseurl: ''
 
 # Navigation links
 nav:
-  资源收集: '/resources.html'
-  生活感悟: '/life.html'
-  实用教程: '/tutorial.html'
-  安卓开发: '/android.html'
-  我的信息: '/about.html'
-  友情链接: '/link.html'
+  A『安卓开发』: '/android.html'
+  B『实用教程』: '/tutorial.html'
+  C『资源收集』: '/resources.html'
+  D『生活感悟』: '/life.html'
+  E『我的信息』: '/about.html'
+  F『友情链接』: '/link.html'
 
 
 # Author 配置博主信息

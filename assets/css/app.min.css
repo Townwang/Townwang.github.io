@@ -2,7 +2,7 @@
 * @Author: Town
 * @Date:   2017-12-05 01:29:40
 * @Last Modified by:   Town
-* @Last Modified time: 2017-12-05 02:02:02
+* @Last Modified time: 2017-12-05 02:11:50
 */
 @font-face {
     font-family:Merriweather;src:url(../fonts/Merriweather-Black.ttf)
@@ -1244,6 +1244,12 @@ a {
     .pagination .page-link {
         width: 56px
     }
+
+    .new-card{
+        display: none;
+    }
+
+
 }
 
 @media screen and (max-width:768px) {

@@ -19,17 +19,22 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    border-left: 1px solid #e7eaf1;
-    border-right: 1px solid #e7eaf1;
     box-sizing: border-box;
     opacity: .8;
     transition: .2s;
 }
-
-.new-card li a {
- color: #4e4e4e;
-    text-decoration: none;
-    cursor: pointer;
+.new-card li:hover {
+    padding: 6px 18px;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: .8;
+        background-color: transparent;
+    color: #fff;
     transition: .2s;
 }
 

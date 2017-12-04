@@ -10,8 +10,8 @@ baseurl: ''
 # Navigation links
 nav:
   A-首页: '/'
-  B-标签: '/pages/tags.html'
-  C-友情: '/pages/link.html'
+  B-标签: '/tags.html'
+  C-友情: '/link.html'
 
 # Author 配置博主信息
 author: 'Town'

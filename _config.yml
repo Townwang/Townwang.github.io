@@ -11,7 +11,9 @@ baseurl: ''
 nav:
   A『首页』: '/'
   B『标签』: '/tags.html'
-  C『友情』: '/link.html'
+  C『关于我』: '/about.html'
+  D『友情』: '/link.html'
+
 
 # Author 配置博主信息
 author: 'Town'

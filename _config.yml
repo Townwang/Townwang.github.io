@@ -11,7 +11,7 @@ baseurl: ''
 nav:
   A『首页』: '/'
   B『标签』: '/tags.html'
-  C『关于我』: '/about.html'
+  C『关于』: '/about.html'
   D『友链』: '/link.html'
 
 

@@ -11,6 +11,7 @@ baseurl: ''
 nav:
   A『首页』: '/'
   B『标签』: '/tags.html'
+  C『关于』: '/about.html'
   D『友链』: '/link.html'
 
 
@@ -61,4 +62,5 @@ input: GFM
 RSS: false
 
 # Plugins
+
 gems: [jekyll-paginate]

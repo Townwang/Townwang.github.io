@@ -1150,6 +1150,7 @@
 }
 .gt-container .gt-comment-admin .gt-comment-content {
   background-color: #f6f9fe;
+  overflow: hidden;
 }
 @-webkit-keyframes gt-kf-rotate {
   0% {

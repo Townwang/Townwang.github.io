@@ -36,8 +36,8 @@
         <div class="new-card">
             <ul>
             {% for post in site.posts limit:10 %}
-              <li>
-                <a href="{{ post.url }}">
+              <li class="new-hot">
+                <a href="{{ post.url }}" class="new">
                   {{ post.title }}
                 </a>
               </li>

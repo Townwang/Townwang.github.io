@@ -12,15 +12,16 @@
      |   ├── footer.html # 页脚
      |   └── head.html # html文档的头部内容
      |   └── header.html # 顶部菜单栏
+     |   └── sidebar.html # 侧边栏
      |   └── pageNav.html # 文章列表分页组件
      |   └── gitment.html # 评论系统
     ├── _layouts # 布局模板
      |   ├── default.html # 默认模板
      |   └── post.html # 文章页面模板
     ├── _posts # 这里放文章
-     |   ├── 2017-05-03-elements-of-javascript-style.md # 命名格式：年-月-日-文章标题.md
-     |   └── 2007-02-21-life-on-mars.md
-    ├── assets # 存放用于线上环境的静态资源.
+     |   ├── 2017-05-03-android.md # 命名格式：年-月-日-文章标题.md
+     |   └── 2007-02-21-life.md
+    ├── assets # 静态资源.
      |   ├── css # 样式文件
      |   └── fonts # 字体文件
      |   └── icons # 图标文件
@@ -32,6 +33,7 @@
     └── tutorial.html # 实用教程页面
     └── resources.html # 资源收集页面
     └── life.html # 生活感悟页面
+    └── tags.html # 标签页面
     └── 404.html # 404页面
     └── link.html # 友情页面
     └── README.md # github项目说明文件

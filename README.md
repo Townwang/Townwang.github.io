@@ -1,4 +1,4 @@
-![](/town.jpg)
+![](https://i.loli.net/2017/12/04/5a2525a70f286.png)
 
 # 博客地址
 

@@ -50,13 +50,15 @@
 
 <div class="new-card">
         <div class="new-title">友情链接  <a href="https://townwang.com/link.html" class="iconfont icon-homein "> </a></div>
-             <ul>
-              <li class="new-hot">
-                <a href="http://hubojing.me" class="new iconfont icon-youqinglianjie"> 
-                胡博靖 - 「计算机爱好者」</a>
-              </li>
 
-                <li class="new-hot">
+             <ul>
+                {% for i in site.friends %}
+              <li class="new-hot">
+                <a href="{{ i[1] }}" class="new iconfont icon-youqinglianjie"> {{ i[0] }}</a>
+              </li>
+                  {% endfor %}
+
+                <!-- <li class="new-hot">
                 <a href="https://itruke.com" class="new iconfont icon-youqinglianjie"> 
                 Ruke - 「技术宅男子」</a>
               </li>
@@ -68,7 +70,7 @@
               <li class="new-hot">
                 <a href="http://txiner.top" class="new iconfont icon-youqinglianjie">
                 Hundred Blog-「一个不务正业的通信狗」 </a>
-              </li>
+              </li> -->
             </ul>
          </div>
 

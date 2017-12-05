@@ -31,7 +31,8 @@
     └── index.html # 模板首页
     └── android.html # 安卓开发页面
     └── tutorial.html # 实用教程页面
-    └── resources.html # 资源收集页面
+    └── software.html # 软件下载页面
+    └── document.html # 文档资源页面
     └── life.html # 生活感悟页面
     └── tags.html # 标签页面
     └── 404.html # 404页面

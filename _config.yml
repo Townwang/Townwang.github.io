@@ -16,6 +16,13 @@ nav:
   E『生活感悟』: '/life.html'
   F『我的信息』: '/about.html'
 
+# 友情链接
+friends:
+  胡博靖: 'http://hubojing.me/'
+  技术宅男子: 'https://itruke.com/'
+  Waydrow: 'https://blog.waydrow.com/'
+  Hundred Blog: 'http://txiner.top/'
+
 # Author 配置博主信息
 author: 'Town'
 nickname: 'Town'

@@ -2,7 +2,7 @@
 * @Author: Town
 * @Date:   2017-12-05 01:29:40
 * @Last Modified by:   Town
-* @Last Modified time: 2017-12-05 10:55:40
+* @Last Modified time: 2017-12-05 11:01:07
 */
 @font-face {
     font-family:Merriweather;src:url(../fonts/Merriweather-Black.ttf)
@@ -1599,7 +1599,11 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-youqinglianjie:before { content: "\e617"; }
+.icon-youqinglianjie:before { content: "\e617"; 
+background: #ff0000;
+}
 
-.icon-new:before { content: "\e60f"; }
+.icon-new:before { content: "\e60f"; 
+background: #2f3139;
+}
 

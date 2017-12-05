@@ -50,13 +50,13 @@
 
 <div class="new-card">
         <div class="new-title">友情链接</div>
-                  {% if site.recommend-tags and site.tags.size>0 %}
+                  {% if  site.links.size>0 %}
             <section class="tags-card">
-                {% for tag in site.tags %}
+                {% for links in site.links %}
                     {% if forloop.index > site.recommend-condition-size %}
                         {% break %}
                     {% endif %}
-                    <a href="{{ "tags.html#" | append: tag[0] | prepend: site.baseurl }}" class="tag">{{ tag[0]}}</a>
+                    <a href="{{ "tags.html#" | append: links[0] | prepend: site.links.baseurl }}" class="tag">{{site.links.name}}</a>
                 {% endfor %}
             </section>
             {% endif %}

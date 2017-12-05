@@ -16,7 +16,13 @@ nav:
   E『我的信息』: '/about.html'
   F『友情链接』: '/link.html'
 
-
+links:
+    -name: 测试
+    baurl: https://townwang.com
+     -name: 测试1
+    baurl: https://townwang.com
+     -name: 测试2
+    baurl: https://townwang.com
 # Author 配置博主信息
 author: 'Town'
 nickname: 'Town'

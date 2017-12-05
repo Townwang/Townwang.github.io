@@ -822,7 +822,7 @@
 .gt-container .gt-avatar img {
   width: 100%;
   height: auto;
-  border-radius: 3px;
+  border-radius: 25px;
 }
 .gt-container .gt-avatar-github {
   width: 3em;
@@ -1101,6 +1101,8 @@
   background-color: #f9f9f9;
   -webkit-transition: all ease 0.25s;
   transition: all ease 0.25s;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
 }
 .gt-container .gt-comment-content:hover {
   -webkit-box-shadow: 0 0.625em 3.75em 0 #f4f4f4;

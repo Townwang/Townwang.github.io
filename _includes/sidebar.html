@@ -34,7 +34,6 @@
         </div>
 
         <div class="new-card">
-
         <div class="new-title">最新发布文章</div>
             <ul>
             {% for post in site.posts limit:10 %}
@@ -47,6 +46,24 @@
             </ul>
     
          </div>
+
+
+<div class="new-card">
+        <div class="new-title">友情链接</div>
+                  {% if site.recommend-tags and site.tags.size>0 %}
+            <section class="tags-card">
+                {% for tag in site.tags %}
+                    {% if forloop.index > site.recommend-condition-size %}
+                        {% break %}
+                    {% endif %}
+                    <a href="{{ "tags.html#" | append: tag[0] | prepend: site.baseurl }}" class="tag">{{ tag[0]}}</a>
+                {% endfor %}
+            </section>
+            {% endif %}
+    
+         </div>
+
+
         {% if site.search %}
         <div class="search-card">
             <input id="search_input" type="text" placeholder="搜索...">

@@ -50,17 +50,26 @@
 
 <div class="new-card">
         <div class="new-title">友情链接</div>
-                  {% if  site.links.size>0 %}
-            <section class="tags-card">
-                {% for links in site.links %}
-                    {% if forloop.index > site.recommend-condition-size %}
-                        {% break %}
-                    {% endif %}
-                    <a href="{{ "tags.html#" | append: links[0] | prepend: site.links.baseurl }}" class="tag iconfont icon-youqinglianjie">{{site.links.name}}</a>
-                {% endfor %}
-            </section>
-            {% endif %}
-    
+             <ul>
+              <li class="new-hot">
+                <a href="http://hubojing.me" class="new iconfont icon-youqinglianjie"> 
+                胡博靖 - 「计算机爱好者」</a>
+              </li>
+
+<li class="new-hot">
+                <a href="https://itruke.com" class="new iconfont icon-youqinglianjie"> 
+                Ruke - 「技术宅男子」</a>
+              </li>
+
+              <li class="new-hot">
+                <a href="https://blog.waydrow.com" class="new iconfont icon-youqinglianjie">
+                Waydrow -「为着美好生活而努力奋斗的程序猿」</a>
+              </li>
+              <li class="new-hot">
+                <a href="http://txiner.top" class="new iconfont icon-youqinglianjie">
+                Hundred Blog-「一个不务正业的通信狗」 </a>
+              </li>
+            </ul>
          </div>
 
 

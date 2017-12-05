@@ -38,8 +38,8 @@
             <ul>
             {% for post in site.posts limit:10 %}
               <li class="new-hot">
-                <a href="{{ post.url }}" class="new">
-                 ☆ {{ post.title }}
+                <a href="{{ post.url }}" class="new iconfont icon-new">
+                  {{ post.title }}
                 </a>
               </li>
             {% endfor %}  
@@ -56,7 +56,7 @@
                     {% if forloop.index > site.recommend-condition-size %}
                         {% break %}
                     {% endif %}
-                    <a href="{{ "tags.html#" | append: links[0] | prepend: site.links.baseurl }}" class="tag">{{site.links.name}}</a>
+                    <a href="{{ "tags.html#" | append: links[0] | prepend: site.links.baseurl }}" class="tag iconfont icon-youqinglianjie">{{site.links.name}}</a>
                 {% endfor %}
             </section>
             {% endif %}

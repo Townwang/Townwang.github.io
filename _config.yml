@@ -73,6 +73,5 @@ RSS: false
 
 gems: [jekyll-paginate]
 
-
 #编码
 encoding: UTF-8

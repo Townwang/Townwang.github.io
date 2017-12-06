@@ -395,7 +395,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-    overflow : auto;
+     overflow: hidden;
   margin-left: 1.25em;
   padding: 0.75em 1em;
   background-color: #f9f9f9;

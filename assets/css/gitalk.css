@@ -428,7 +428,7 @@
   text-decoration: none;
 }
 .gt-container .gt-comment-username:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .gt-container .gt-comment-text {
   margin-left: 0.5em;

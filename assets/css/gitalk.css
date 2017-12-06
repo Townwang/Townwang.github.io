@@ -28,18 +28,22 @@
           box-sizing: border-box;
 }
 .gt-container a {
-  color: #6190e8;
+    color: #fa709a;
+  text-decoration: none;
 }
 .gt-container a:hover {
   color: #81a6ed;
   border-color: #81a6ed;
+  text-decoration: none;
 }
 .gt-container a.is--active {
   color: #333;
   cursor: default !important;
+  text-decoration: none;
 }
 .gt-container a.is--active:hover {
   color: #333;
+  text-decoration: none;
 }
 .gt-container .gt-svg {
   display: inline-block;
@@ -311,7 +315,7 @@
   transition: all 0.25s ease;
 }
 .gt-container .gt-header-textarea:hover {
-  background-color: #fbfbfb;
+   border: 1px solid #6190e8;
 }
 .gt-container .gt-header-controls {
   position: relative;
@@ -405,8 +409,7 @@
     border: 1px solid rgba(0,0,0,0.1);
 }
 .gt-container .gt-comment-content:hover {
-  -webkit-box-shadow: 0 0.625em 3.75em 0 #f4f4f4;
-          box-shadow: 0 0.625em 3.75em 0 #f4f4f4;
+   border: 1px solid #6190e8;
 }
 @media (max-width: 479px) {
   .gt-container .gt-comment-content {
@@ -421,7 +424,7 @@
 }
 .gt-container .gt-comment-username {
   font-weight: 500;
-  color: #6190e8;
+  color: #fa709a;
   text-decoration: none;
 }
 .gt-container .gt-comment-username:hover {

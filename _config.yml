@@ -71,6 +71,3 @@ RSS: false
 
 # Plugins
 gems: [jekyll-paginate]
-
-
-encoding: UTF-8

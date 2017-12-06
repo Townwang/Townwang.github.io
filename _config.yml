@@ -48,7 +48,7 @@ postPatterns: 'circuitBoard'
 # 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   weibo: '//weibo.com/zgadc'
-  twitter: ''
+  twitter: 'Townwang'
   linkedin: ''
   github: '//github.com/Townwang'
 

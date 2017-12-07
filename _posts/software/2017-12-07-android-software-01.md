@@ -12,8 +12,8 @@ cover: https://t1.picb.cc/uploads/2017/12/07/01hZ0.png
 
 ## 软件截图
 
-![013Xd.png](https://t1.picb.cc/uploads/2017/12/07/013Xd.png)
-![01v81.png](https://t1.picb.cc/uploads/2017/12/07/01v81.png)
+![](https://ws1.sinaimg.cn/large/005uN1Qqgy1fm8muit0xbj31401z4q90.jpg)
+![](https://ws1.sinaimg.cn/large/005uN1Qqgy1fm8muh08b2j31401z4dmc.jpg)
 
 ## 软件介绍
 

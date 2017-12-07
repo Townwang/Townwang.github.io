@@ -1,59 +1,66 @@
 # Site settings 配置站点
-title: '廖柯宇的独立博客'
-description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
-url: 'http://liaokeyu.com' # your host
+title: '文科中的技术宅'
+description: '吾乃Town,逢时不利,选错文理,学文出身,却爱技术,一路艰辛走过.终踏入技术大门,于此分享我之心得,望前人指导,望后人借鉴.'
+keyword: 'Town,TownWang,文科,技术宅,文科中的技术宅,Android,开发者,研发,程序员'
+url: 'https://townwang.com' # 地址
 
-# if you don't need baseurl, you should leave this value blank.
+# 不需要baseurl留空。
 baseurl: ''
 
-# Navigation links
+# 导航栏
 nav:
-  home: '/'
-  tags: '/tags.html'
+  A『安卓开发』: '/android.html'
+  B『实用教程』: '/tutorial.html'
+  C『软件下载』: '/software.html'
+  D『文档资源』: '/document.html'
+  E『生活感悟』: '/life.html'
+  F『我的信息』: '/about.html'
+
+# 友情链接
+friends:
+  胡博靖: 'http://hubojing.me/'
+  技术宅男子: 'https://itruke.com/'
+  Waydrow: 'https://blog.waydrow.com/'
+  Hundred Blog: 'http://txiner.top/'
 
 # Author 配置博主信息
-author: '廖柯宇'
-nickname: '悟空'
-bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
+author: 'Town'
+nickname: 'Town'
+bio: 'Android开发者,软件破解,美化,爱好者&文科中的技术宅'
 avatar: '/assets/img/profile.png'
 
-# Search
+# 开启搜索
 search: true
 
-# Night mode
+# 开启夜间模式
 nightMode: true
 
-# Comments
-disqus: false
-disqus_url: 'https://liaokeyu.disqus.com/embed.js'
-
-# Share
+# 开启分享
 social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
-# theme color 主题皮肤
+#  主题皮肤
 theme-color: 'default'  # pink or default
 
-# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+# 头部底纹: circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
 
-# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+# 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  weibo: '//weibo.com/zgadc'
+  twitter: '//twitter.com/Townwang'
+  linkedin: ''
+  github: '//github.com/Townwang'
 
-# Tags 设置标签
-recommend-tags: true # whether or not display recommend-tags on the sidebar
-recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+#  设置标签
+recommend-tags: true #显示推荐标签
+recommend-condition-size: 12 # 超过12个显示推荐
 
-# Build settings
+# 编译设置
 paginate: 6
 paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
-
+exclude: ['node_modules','package.json', 'gulpfile.js', '.gitignore', 'README.md']
+permalink: /:title
 # Markdown
 markdown: kramdown
 highlighter: rouge
@@ -64,3 +71,6 @@ RSS: false
 
 # Plugins
 gems: [jekyll-paginate]
+
+
+encoding: UTF-8

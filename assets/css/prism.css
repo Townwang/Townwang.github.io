@@ -1,3 +1,10 @@
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+coffeescript+go+java+php+python+sass+scss+swift */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
@@ -21,18 +28,17 @@ pre[class*="language-"] {
 	hyphens: none;
 }
 
-/* Code blocks 
+/* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
 	border-radius: 0.3em;
 }
-*/
+
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background: #272822;
-	    overflow: scroll;
 }
 
 /* Inline code */

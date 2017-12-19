@@ -72,5 +72,9 @@ Python
 采用Github issues 
 
 
+# 备注
+
+请勿提交issues,因为我想把它放每片文章对应,如有疑问请进博客留言 谢谢!博客也采用github登录.
+
 
 

@@ -1,8 +1,0 @@
----
-title: robots
----
-# robots.txt generated at http://tool.chinaz.com/robots/ 
-User-agent: *
-Disallow: _includes
-Disallow: _layouts
-Disallow: assets

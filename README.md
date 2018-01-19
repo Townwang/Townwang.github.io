@@ -22,6 +22,14 @@
      |   ├── 2017-05-03-android.md # 命名格式：年-月-日-文章标题.md
      |   └── 2007-02-21-life.md
     ├── assets # 静态资源.
+     |   ├── page # 页面文件
+     |    |   └── android.md # 安卓开发页面
+     |    |   └── tutorial.md # 实用教程页面
+     |    |   └── software.md # 软件下载页面
+     |    |   └── document.md # 文档资源页面
+     |    |   └── life.md # 生活感悟页面
+     |    |   └── tags.md # 标签页面
+     |    |   └── link.md # 友情页面
      |   ├── css # 样式文件
      |   └── fonts # 字体文件
      |   └── icons # 图标文件
@@ -29,14 +37,7 @@
      |   └── js # 脚本文件
     └── gulpfile.js # 自动化任务脚本
     └── index.html # 模板首页
-    └── android.html # 安卓开发页面
-    └── tutorial.html # 实用教程页面
-    └── software.html # 软件下载页面
-    └── document.html # 文档资源页面
-    └── life.html # 生活感悟页面
-    └── tags.html # 标签页面
     └── 404.html # 404页面
-    └── link.html # 友情页面
     └── README.md # github项目说明文件
     └── CNAME # 域名解析文件
     └── favicon.ico # 浏览器小图标
@@ -71,10 +72,6 @@ Python
 
 采用Github issues 
 
-
-# 备注
-
-请勿提交issues,因为我想把它放每片文章对应,如有疑问请进博客留言 谢谢!博客也采用github登录.
 
 
 

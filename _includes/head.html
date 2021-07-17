@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="zh-CN">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="author"  content="{{ site.author }}">
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta itemprop="image" content="https://i.loli.net/2018/12/28/5c258b168b588.jpg"  alt="{{site.title}}"/>
+    <meta name="description" itemprop="description" content="{{ site.description }}">
+    <meta name="keywords"  content="{{ site.keyword }}">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="blog">
+    <meta property="og:image" content="https://i.loli.net/2018/12/28/5c258b168b588.jpg" alt="{{site.title}}">
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+
+    <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
+        <!-- 百度熊猫 -->
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}"/>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_roc50gemkxpw4s4i.css">
+    <link rel="stylesheet" href="/assets/css/github-markdown.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    <link rel="stylesheet" href="/assets/css/share.min.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+</head>

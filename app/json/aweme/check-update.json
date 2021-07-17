@@ -1,0 +1,8 @@
+{
+    "name": "抖音插件", 
+    "data": { 
+        "status":true,
+        "versionCode": 5,
+        "downloadUrl":"https://townwang.com/app/app/aweme-1.0.3.apk"
+    }
+}

@@ -1,0 +1,56 @@
+<!-- 隐藏内容时显示 -->
+<div id="content-hide" style="border: 1px dashed #03A9F4;padding:10px;line-height:200%;overflow:hidden;clear:both; display:none;float:center ">
+<img class="wxpic" align="right" src="./assets/img/zheno2o.jpg" style="width:120px;height:120px;margin-left:20px;display:inline;border:none" width="150" height="150" alt="townwang">
+
+<span style="font-size:16px;color: #E91E63;">本站下载绝不收费，</span>
+
+<span style="color:#009900;font-size:16px;">输入暗号后查看</span>
+
+<div style="margin:10px 0;">
+
+<span class="yzts" style="font-size:16px;float:left;color: #2196F3;">暗号：</span>
+<input  id="input-code" type="text" value="" style="border:none;float:left;width:80px; height:30px; line-height:30px; padding:0 5px; border:1px solid #2196F3;-moz-border-radius: 0px;  -webkit-border-radius: 0px;  border-radius:0px;">
+<input id="psd-btn" style="border:none;float:left;width:80px; height:30px; line-height:30px; padding:0 5px; background-color:#2196F3; text-align:center; border:none; cursor:pointer; color:#FFF;-moz-border-radius: 0px; font-size:14px;  -webkit-border-radius: 0px;  border-radius:0px; margin:0px;" name="" type="button"  value="提交查看" onclick="showhidediv(post-content-hide)">
+</div>
+
+<div style="clear:left;"></div>
+
+<span style="color:#009688">
+方法：微信扫描【右侧】二维码，回复“<strong><span style="color:blue">暗号</span></strong>”获取今日暗号，获取暗号后在此处输入。
+</span>
+
+<div style="clear:left;"></div>
+
+微信号：pub-townwang ，微信公众号同步分享软件。
+</div>
+
+<script type="text/javascript" charset="utf-8" >
+    var content = document.getElementById("psd");
+      // 隐藏内容
+      content.style.display="none";
+    var content_hide = document.getElementById("content-hide");
+    //显示密码输入框
+    content_hide.style.display = "block";
+
+    var button = document.getElementById("psd-btn");
+
+    //对比暗号显示内容
+      button.onclick = function(){
+         var code = document.getElementById("input-code");
+
+
+$.get('https://townwang.com/app/json/blog/psd.json', function(data) {
+
+   if (code.value ==  data.psd) {
+             content_hide.style.display = "none";
+             content.style.display="block";
+          }else {
+            alert("暗号不对");
+          }
+
+
+});
+
+
+      };
+</script>

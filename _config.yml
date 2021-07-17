@@ -1,0 +1,87 @@
+# Site settings 配置站点
+title: '文科中的技术宅'
+# 吾名为镇,逢时不利,选错文理,学文出身,却爱技术,一路艰辛走过.终踏入技术大门,于此分享我之心得,望前人指导,望后人借鉴.
+description: '王振镇——热爱技术，热爱生活，热爱学习的技术宅男一枚。在这个百花齐放的时代，一个文科生以爱好挤入软件开发大门。在此分享自身所得。还请过往前辈指导正确路线，让后生能快速进度。'
+keyword: 'Town,Townwang,技术宅,文科中的技术宅,宅男,文科生,研发,程序员,软件开发'
+url: 'https://townwang.com' # 地址
+
+# 不需要baseurl留空。
+baseurl: ''
+
+# 导航栏
+nav:
+  A『安卓开发』: 'android'
+  B『实用教程』: 'tutorial'
+  C『软件下载』: 'software'
+  D『文档资源』: 'document'
+  E『生活感悟』: 'life'
+  F『我的信息』: 'about'
+
+# 友情链接
+friends:
+  胡博靖: 'https://hubojing.github.io/'
+  Secret Blog: 'https://blog.isecret.vip/'
+  YZK博客: 'http://yzkos.com/'
+  TMaize'Blog: 'http://blog.tmaize.net/'
+  唯美陌阡: "https://hexo.xxrar.com/"
+  蓝果科技组: "http://www.nantz.top"
+  程序员工具: "http://www.jianshushe.com"
+  tea9的博客: "https://tea9.github.io"
+  曜日庄主: "https://sunbossrs.github.io"
+  Zeech: "https://zcheng.ren"
+  胡凯: "http://www.hukaivip.cn/"
+  卡盟: "http://town.ds175.cn/"
+  梁钟霖: "https://www.liangzl.com"
+  安卓基础课程: "https://codelabs.developers.google.com/android-kotlin-fundamentals"
+  mongona: https://www.mongona.com
+
+# Author 配置博主信息
+author: 'Town'
+nickname: 'Town'
+bio: 'Android开发者,软件破解,美化,爱好者&文科中的技术宅'
+avatar: '/assets/img/profile.png'
+
+# 开启搜索
+search: true
+
+# 开启夜间模式
+nightMode: true
+
+# 开启分享
+social-share: true
+social-share-items: ['wechat', 'weibo', 'twitter','linkedin']
+
+#  主题皮肤
+theme-color: 'default'  # pink or default
+
+# 头部底纹: circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  weibo: '//weibo.com/townwang'
+  twitter: '//twitter.com/Townwang'
+  linkedin: ''
+  github: '//github.com/Townwang'
+
+#  设置标签
+recommend-tags: true #显示推荐标签
+recommend-condition-size: 12 # 超过12个显示推荐
+
+# 编译设置
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules','package.json', 'gulpfile.js', '.gitignore', 'README.md']
+permalink: /:title
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+#订阅
+RSS: true
+# Plugins
+plugins: [jekyll-paginate]
+#编码
+encoding: UTF-8

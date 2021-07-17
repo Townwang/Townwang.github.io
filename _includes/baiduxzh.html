@@ -1,0 +1,13 @@
+<script type="application/ld+json">
+        {
+            "@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+            "@id": "{{ page.url | prepend: site.url }}",
+            "appid": "1590286112813721",
+            "title": "{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}",
+            "images": [],
+            "description": "{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}",
+            "pubDate": "{{ page.date | date: '%FT%H:%M:%S'}}",
+            "upDate": "{{ page.date | date: '%FT%H:%M:%S'}}",
+            "lrDate": "{{ page.date | date: '%FT%H:%M:%S'}}"
+        }
+    </script>

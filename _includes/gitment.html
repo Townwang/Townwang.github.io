@@ -1,0 +1,17 @@
+<div style="padding:0px 16px;" id="gitalk-container"></div>
+        <script src="/assets/js/gitalk.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/gitalk.css">
+<!-- {{page.path}} -->
+<script>
+  setTimeout(function () {
+    var gitalk = new Gitalk({
+  clientID: 'fd8bd0ccbd0dcef92c53',
+  clientSecret: '52f903d38833a4434295017cc09c2201d711c3b2',
+  repo: 'Townwang.github.io',
+  owner: 'Townwang',
+  admin: ['Townwang'],
+})
+
+gitalk.render('gitalk-container')
+    }, 300)
+</script>

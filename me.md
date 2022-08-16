@@ -1,16 +1,15 @@
-# Android程序员
+# Android攻城狮
 # 联系方式
-- 手机：15592048206 （```目前离职状态```）
+- 手机：15592048206 （```目前在职状态```）
 - Email：android@townwang.com （```个人邮箱采用技术博客域名```）
 - 微信号：wechatTown（```工作微信```）
+- 联系时间：因目前工作在保密区 不能携带手机 建议 AM 11:00到 11:20联系, PM 15:00 到15:20 联系. 联系不到时 我看到会回复.
 ---
 # 个人信息
  - 王振镇/男/1993
- - 专科/电子商务
  - 工作年限：6年
- - 微博：[@文科中的技术宅](http://weibo.com/townwang) （``` 发一些安卓心得 ```）【粉丝4000左右】
  - Twitter：[@文科中的技术宅](https://twitter.com/townwang) （``` 同步一些文章到上面 ```）
- - 公众号： 文科中的技术宅 (```分享一些软件、以及安卓知识```)【粉丝5400左右】
+ - 公众号： 文科中的技术宅 开源人 (```分享一些软件、以及安卓知识```)【粉丝2w+】
  - 技术博客：http://townwang.com ( ``` 采用github托管 ```  ) 【未统计】
  - GitHub: http://github.com/townwang ( ``` 有一些封装和开源项目，以及小Demo分享 ```  )
  - 期望职位：Android工程师
@@ -19,7 +18,7 @@
 ---
 # 个人技能
 
-自定义View 、经典蓝牙以及Ble蓝牙通讯、 TCP协议、 http协议、 mqtt协议、 线程的使用、 anr处理、 oom处理、 AAC架构、 androidx库的使用
+自定义View 、经典蓝牙以及Ble蓝牙通讯、 TCP协议、 http协议、 mqtt协议、 协程 多线程的使用、 AAC架构、 androidx库的使用  问题单anr处理、 oom处理
 
 # 开源项目和作品
 
@@ -34,28 +33,28 @@
 ## 开源项目
 
  - [AwemeTown](https://github.com/Townwang/AwemeTown) :   
- 突破抖音上限15秒（最高59秒）{绕过59秒检测方案正在研究}
- 去除抖音视频内页广告
- - [Log](https://github.com/Townwang/Log) : 打破android日志字限制并自动格式化json。
- - [ContactInsert](https://github.com/Townwang/ContactInsert) : 基于android通讯录的操作库。
+ 突破抖音上限15秒（最高59秒）
+ 去除抖音视频内页广告{```停止维护```}
+ - [ContactInsert](https://github.com/Townwang/ContactInsert) : 基于android通讯录的操作库。{```停止维护```}
  - [Common](https://github.com/Townwang/Common):
- 安卓中通用的工具库，自用，目前支持进程保活、应用内升级服务
+ 安卓中通用的工具库，开源项目自用，目前支持进程保活、应用内升级服务
 
 # 工作经历
+
 ## 芯知软件(2021年9月 ~ 至今)
-android开发 , OPPO线 ---系统应用
+外包公司四级主管 
+管理项: 负责人员维稳  项目进度把控  稳定交付协助
+开发项: 系统应用开发 , OPPO线 ---权限方向系统应用 securitypermission  safecenter permissioncontroller等
 ## 中软国际(2020年9月 ~ 2021年9月)
-android开发 , 汇丰线 ---mobile team
-## 软通动力信息技术有限公司(2020年3月 ~ 2020年8月31)
+android开发 , 汇丰线 ---mobile team 
+## 软通动力信息技术有限公司(2020年3月 ~ 2020年8月)
 Android开发，外派歌尔----华为线---运动健康
 
-## 西安聚华建智能科技有限公司(2019年4月 ~ 2019年12)
-### 哈罗小易APP （kotlin）
+## 西安聚华建智能科技有限公司(2019年4月 ~ 2019年12月)
+
+### [哈罗小易APP](https://shouji.baidu.com/software/26199421.html) （kotlin）
 #### 项目描述
 关联智能视力检测设备，通过医疗大数据及人工智能技术帮助3-17岁儿童/青少年快速检测及锁定眼部问题并推荐个性化眼病防控方案，预防近视的发生以及相关治疗引荐。
-#### 主要功能
-安装手机： 配合硬件眼镜测试视力
-安装平板： 配合学校筛查学生视力 由遥控器控制。
 #### 
 此项目采用kotlin完成 ，全程使用androidx库 以及官方AAC架构，MVVM框架搭建。项目中以koin注入配合jetpack组件有效分离View与viewModel，viewModel采用协程加线程提升效率。
 #### 项目职责
@@ -65,24 +64,11 @@ Android开发，外派歌尔----华为线---运动健康
 4. 负责排查并修复BUG
 5. 负责优化用户体验
 
-#### 下载地址
-
-[百度助手](https://shouji.baidu.com/software/26199421.html)
-
 ## 赞美金服网络科技有限公司(2018年9月2 ~ 2019年3月)
-### 赞美金服 （java）
+### [赞美金服](https://sj.qq.com/myapp/detail.htm?apkName=com.zanmeijinfu) （java）
 #### 项目描述
 赞美APP致力为小伙伴们打造简单、快捷的申请方式，让您一款APP，申卡用卡全搞定
-#### 主要功能
-1. 预约办卡 ： 简单快捷预约银行卡员上门办卡。
-2. 卡员中心 ： 管理预约办卡用户。
-3. 用卡攻略 ： 查看用卡攻略，用卡窍门早知道。
-4. 热门资讯 ： 查看资讯，了解动态。
-5. 在线办卡 ： 在线申请信用卡，申卡成功率高。
-6. 额度测试 ： 看看你有多少额度吧！
-7. 查询助手 ： 查快递，查电话，生活更方便。
-8. 我要推广 ： 随时随地赚钱。
-9. 积分商城 ： 用积分兑换各种生活用品。
+
 #### 项目职责
 1. 负责项目架构搭建
 2. 负责项目编码
@@ -92,21 +78,12 @@ Android开发，外派歌尔----华为线---运动健康
 6. 负责项目进度把控，跟踪
 7. 负责项目任务分发
 
-#### 下载地址 
-
-[应用宝地址](https://sj.qq.com/myapp/detail.htm?apkName=com.zanmeijinfu)
-
 ## 研冠科技有限公司 （ 2016年2月14日 ~ 2018年8月10）
-### 智护伞（java）
+### [智护伞](http://sj.qq.com/myapp/detail.htm?apkName=wu.fei.myditu)（java）
 
 #### 项目描述
 
 智护伞-如其名:智能保护伞.  是我司名下主要产品. GPS防盗器手机查车APP ,随时随地查车状态.
-
-#### 主要功能
-
-1. 电子围栏 2. 实时跟踪 3. 轨迹查询 4. 解防/设防 
-5. 启动/关闭启动 6. 刹车/关闭刹车 7. 断电 8. 语音报警 9. 附近服务
 
 #### 项目优化
 
@@ -122,21 +99,11 @@ Android开发，外派歌尔----华为线---运动健康
 4. 负责优化用户体验
 5. 负责打包发布各个渠道
 
-
-#### 下载地址 
-
-[应用宝地址](http://sj.qq.com/myapp/detail.htm?apkName=wu.fei.myditu)
-
-### 智护伞企业端（java）
+### [智护伞企业端](http://sj.qq.com/myapp/detail.htm?apkName=www.zhihusan.agentscan)（java）
 
 #### 项目描述
 
 此项目为公司下级代理商管理项目.
-
-#### 主要功能
-
-1. 查车 2. 实时跟踪 3. 轨迹查询 4. 告警开关
-5. 查看收益 6. 入库 7. 出货 8. 查看库存 9. 查看下级情况
 
 #### 项目优化
 
@@ -151,11 +118,7 @@ Android开发，外派歌尔----华为线---运动健康
 4. 负责优化用户体验
 5. 负责打包发布
 
-#### 下载地址 
-
-[应用宝地址](http://sj.qq.com/myapp/detail.htm?apkName=www.zhihusan.agentscan)
-
-### 外援项目(醉美大连) （java）
+### 外援项目([醉美大连](http://sj.qq.com/myapp/detail.htm?apkName=com.qmzhhchsh.yp)) （java）
 此项目是深圳一家公司接的大连政府项目,因为人手问题,那边向我们公司请求支援.是一个多人合作的项目.
 #### 项目描述
 
@@ -167,11 +130,6 @@ Android开发，外派歌尔----华为线---运动健康
 1. 主要负责醉美大连模块
 2. 负责修复醉美大连BUG
 3. 交付源码
-
-#### 下载地址 
-
-[应用宝地址](http://sj.qq.com/myapp/detail.htm?apkName=com.qmzhhchsh.yp)
-
 
 ### 其他项目 （java）
 

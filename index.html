@@ -6,113 +6,7 @@ header-img: https://i.loli.net/2017/12/05/5a26532aa8329.jpg
 ---
 		<div id="app" data-server-rendered="true">
 			<div class="theme-container no-sidebar">
-
-				<header class="navbar">
-					<div class="sidebar-button">
-						<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon">
-							<path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path>
-						</svg>
-					</div>
-					<a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active">
-						<img src="/assets/icons/s_logo.svg" alt="开源人" class="logo">
-						<span class="site-name can-hide">开源人</span>
-					</a>
-					<div class="links">
-						<div class="search-box">
-							<input aria-label="Search" autocomplete="off" spellcheck="false" value="">
-							
-						</div>
-						<nav class="nav-links can-hide">
-							<div class="nav-item">
-								<a href="#" aria-current="page" class="nav-link router-link-exact-active router-link-active">
-									首页
-								</a>
-							</div>
-							<div class="nav-item">
-								<a href="#" class="nav-link">
-									测试
-								</a>
-							</div>
-							<div class="nav-item">
-								<a href="#" class="nav-link">
-									测试
-								</a>
-							</div>
-							<div class="nav-item">
-								<div class="dropdown-wrapper">
-									<button type="button" aria-label="测试" class="dropdown-title">
-										<span class="title">测试</span>
-										<span class="arrow down"></span>
-									</button>
-									<button type="button" aria-label="测试" class="mobile-dropdown-title">
-										<span class="title">测试</span>
-										<span class="arrow right"></span>
-									</button>
-									<ul class="nav-dropdown" style="display:none;">
-										<li class="dropdown-item">
-											<h4>
-												原创
-											</h4>
-											<ul class="dropdown-subitem-wrapper">
-												<li class="dropdown-subitem">
-													<a href="#" class="nav-link">
-														📜 测试
-													</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</nav>
-					</div>
-				</header>
-				<div class="sidebar-mask"></div>
-				<aside class="sidebar">
-				<nav class="nav-links">
-							<div class="nav-item">
-								<a href="#" aria-current="page" class="nav-link router-link-exact-active router-link-active">
-									首页
-								</a>
-							</div>
-							<div class="nav-item">
-								<a href="#" class="nav-link">
-									测试
-								</a>
-							</div>
-							<div class="nav-item">
-								<a href="#" class="nav-link">
-									测试
-								</a>
-							</div>
-							<div class="nav-item">
-								<div class="dropdown-wrapper">
-									<button type="button" aria-label="测试" class="dropdown-title">
-										<span class="title">测试</span>
-										<span class="arrow down"></span>
-									</button>
-									<button type="button" aria-label="测试" class="mobile-dropdown-title">
-										<span class="title">测试</span>
-										<span class="arrow right"></span>
-									</button>
-									<ul class="nav-dropdown" style="display:none;">
-										<li class="dropdown-item">
-											<h4>
-												原创
-											</h4>
-											<ul class="dropdown-subitem-wrapper">
-												<li class="dropdown-subitem">
-													<a href="#" class="nav-link">
-														📜 测试
-													</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</nav>
-				</aside>
+					{% include header.html %}
 				<main aria-labelledby="main-title" class="home">
 					<header class="hero">
 						{% include logo.html %}
@@ -192,9 +86,7 @@ header-img: https://i.loli.net/2017/12/05/5a26532aa8329.jpg
 							<ins data-ad-client="ca-pub-2453318821399375" data-ad-slot="5285149603" data-ad-format="auto" data-full-width-responsive="true" class="adsbygoogle" style="display:block" data-v-344bc0a0=""></ins>
 						</div>
 					</div>
-					<div class="footer">
-						遵循 AGPL-3.0 开源协议
-					</div>
+					{% include footer.html %}
 				</main>
 			</div>
 			<div class="global-ui">

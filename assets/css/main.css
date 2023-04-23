@@ -2337,13 +2337,13 @@ button.swiper-pagination-bullet{
     filter:gray
 }
 .icon-svg-qr[data-v-39ac1fd5]{
-    background-image:url(/assets/css/qr.svg)
+    background-image:url(../icons/qr.svg)
 }
 .icon-svg-wechat[data-v-39ac1fd5]{
-    background-image:url(/assets/css/wechat.svg)
+    background-image:url(../icons/wechat.svg)
 }
 .icon-svg-search[data-v-39ac1fd5]{
-	background-image:url(/assets/css/search.svg);
+	background-image:url(../icons/search.svg);
 }
 
 .badge[data-v-3a1264aa]{

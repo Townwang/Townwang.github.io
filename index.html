@@ -27,7 +27,7 @@ header-img: https://i.loli.net/2017/12/05/5a26532aa8329.jpg
 						<div data-v-3a1264aa="">
 							<h2 data-v-3a1264aa="">🔨 开源项目</h2>
 							<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;" data-v-3a1264aa="">
-							{% for post in site.categories.ped %}
+							{% for post in site.categories.ped | sort: 'weight' %}
 								<div class="feature" data-v-3a1264aa="">
 									<h2 data-v-3a1264aa="">
 										<a data-instant="" href="#" target="_blank" class="flex" data-v-3a1264aa="">

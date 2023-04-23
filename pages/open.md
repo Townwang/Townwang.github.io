@@ -2,7 +2,7 @@
 layout: default
 home-title: 开源项目
 description: 一些开源项目
-permalink: /ped
+permalink: /open
 ---
 
 {% include header.html %}

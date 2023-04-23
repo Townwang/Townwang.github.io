@@ -26,7 +26,7 @@ description: 在这里见证我的成长历程!
 				<div data-v-3a1264aa="">
 					<h2 data-v-3a1264aa="">🔨 开源项目</h2>
 					<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;" data-v-3a1264aa="">
-						{% assign sorted_pages = site.categories.ped | sort:"weight" %}
+						{% assign sorted_pages = site.categories.open | sort:"weight" %}
 						{% for post in sorted_pages %}
 						<div class="feature" data-v-3a1264aa="">
 							<h2 data-v-3a1264aa="">
@@ -39,8 +39,8 @@ description: 在这里见证我的成长历程!
 									{% endfor %}
 								</a>
 							</h2>
-							{% for d in post.description %}
-							<p data-v-3a1264aa="">{{ d }}</p>
+							{% for des in post.description %}
+							<p data-v-3a1264aa="">{{ des }}</p>
 							{% endfor %}
 							<div class="icon-svg icon-svg-tm" style="height:16px;width:16px;" data-v-39ac1fd5="" data-v-3a1264aa=""></div>
 							<p></p>

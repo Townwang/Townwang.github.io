@@ -10,12 +10,11 @@ baseurl: ''
 
 # 导航栏
 nav:
-  A『安卓开发』: 'android'
-  B『实用教程』: 'tutorial'
-  C『软件下载』: 'software'
-  D『文档资源』: 'document'
-  E『生活感悟』: 'life'
-  F『我的信息』: 'about'
+  开发: 'android'
+  教程: 'tutorial'
+  软件: 'software'
+  文档: 'document'
+  感悟: 'life'
 
 # 友情链接
 friends:

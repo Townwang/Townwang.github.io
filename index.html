@@ -27,26 +27,25 @@ header-img: https://i.loli.net/2017/12/05/5a26532aa8329.jpg
 						<div data-v-3a1264aa="">
 							<h2 data-v-3a1264aa="">🔨 开源项目</h2>
 							<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;" data-v-3a1264aa="">
-							{% for post in site.categories.software %}
-								{% if post.cover %}
-								{% if post.tags.size > 0 %}
+							{% for post in site.categories.ped %}
+						
 								<div class="feature" data-v-3a1264aa="">
 									<h2 data-v-3a1264aa="">
 										<a data-instant="" href="#" target="_blank" class="flex" data-v-3a1264aa="">
 											<div class="icon-svg mr10 icon-svg-panlinker" style="height:1.4rem;width:1.4rem;" data-v-39ac1fd5="" data-v-3a1264aa=""></div>{{ post.title }} 
+												{% if post.tags.size > 5 %}
 											 {% for tag in post.tags  %}
 											<span class="badge" data-v-3a1264aa="">{{ tag }}</span>
 											 {% endfor %}
+											 	{% endif %}
 										</a>
 									</h2>
-									  {% if post.subtitle %}
-									<p data-v-3a1264aa="">{{ post.subtitle }}</p>
-									 {% endif %}
+									{% for d in post.tags  %}
+									<p data-v-3a1264aa="">{{ d }}</p>
+									 {% endfor %}
 									<div class="icon-svg icon-svg-tm" style="height:16px;width:16px;" data-v-39ac1fd5="" data-v-3a1264aa=""></div>
 									<p></p>
 								</div>
-								 {% endif %}
-								{% endif %}
 							{% endfor %}
 							</div>
 							

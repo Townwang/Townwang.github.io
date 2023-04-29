@@ -2340,13 +2340,13 @@ button.swiper-pagination-bullet{
     filter:grayscale(100%);
     filter:gray
 }
-.icon-svg-qr[data-v-39ac1fd5]{
+.icon-svg-qr{
     background-image:url(../icons/qr.svg)
 }
-.icon-svg-wechat[data-v-39ac1fd5]{
+.icon-svg-wechat{
     background-image:url(../icons/wechat.svg)
 }
-.icon-svg-search[data-v-39ac1fd5]{
+.icon-svg-search{
 	background-image:url(../icons/search.svg);
 }
 

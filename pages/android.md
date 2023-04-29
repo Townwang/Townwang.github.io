@@ -11,7 +11,7 @@ permalink: /android
 			<div class="theme-default-content custom content__default">
 				<div data-v-3a1264aa="">
 					<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;" data-v-3a1264aa="">
-						{% assign sorted_pages = site.categories.open | sort:"weight" %}
+						{% assign sorted_pages = site.categories.android | sort:"weight" %}
 						{% for post in sorted_pages %}
 						<div class="feature" data-v-3a1264aa="">
 							<h2 data-v-3a1264aa="">

@@ -1061,3 +1061,10 @@ body{
 .badge+.badge{
     margin-left:5px
 }
+.pclines {
+	overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}

@@ -6,22 +6,6 @@ permalink: /android
 ---
 
 {% include header.html %}  
-<div id="app">
-	<div class="theme-container">
-		<header class="navbar">
-			<div class="sidebar-button">
-			<div class="links" style="max-width: 511px;">
-			<nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">指南</a></div>
-			</div>
-			</div>
-			</header>
-
- <main class="page"> <div class="theme-default-content content__default">
-
-tentttttttttt
-</div>
-
-<!--
 <main aria-labelledby="main-title" class="home">
 			<div class="theme-default-content custom content__default">
 				<div>
@@ -37,12 +21,12 @@ tentttttttttt
 									{% endfor %}
 									{% endfor %}
 								</a>
-							<p>{{ post.content }}</p>
+							<p class="pclines">{{ post.content }}</p>
 						</div>
 						{% endfor %}
 					</div>
 					<!--<div class="tip">提示：末尾带有 <div class="icon-svg icon-svg-tm" style="height:16px;width:16px;"></div> 图标的表示脚本</div>-->
 				</div>
 			</div>
-			{% include footer.html %} -->
+			{% include footer.html %}
 </main>

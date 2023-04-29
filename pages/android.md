@@ -6,9 +6,6 @@ permalink: /android
 ---
 
 {% include header.html %}
-<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.description }}</h2>
-</div>
 
 <main class="g-container home-content">
     <div class="article-list">

@@ -1061,10 +1061,11 @@ body{
 .badge+.badge{
     margin-left:5px
 }
-.pclines {
-	overflow: hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
+.post-date {
+    float: right;
+    color: #a9b0bc;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: .6px;
+    line-height: 22px
 }

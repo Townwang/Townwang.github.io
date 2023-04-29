@@ -21,7 +21,7 @@ permalink: /android
 									{% endfor %}
 									{% endfor %}
 								</a>
-							<p class="pclines">{{ post.content }}</p>
+							<p><time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time></p>
 						</div>
 						{% endfor %}
 					</div>

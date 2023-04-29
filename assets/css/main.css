@@ -1014,7 +1014,7 @@ html{
     }
     .home .feature{
         max-width:100%;
-        padding:0 2.5rem
+        padding:1rem 2.5rem
     }
 }
 @media (max-width:419px){
@@ -2412,7 +2412,7 @@ button.swiper-pagination-bullet{
 }
 .home .feature[data-v-3a1264aa]{
     max-width:100%;
-    padding:0 1rem
+    padding:1rem 1rem
 }
 .install-box[data-v-1b014d15]{
     margin-top:20px;

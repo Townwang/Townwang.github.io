@@ -9,30 +9,31 @@ permalink: /android
 
 <main aria-labelledby="main-title" class="home">
 			<div class="theme-default-content custom content__default">
-				<div data-v-3a1264aa="">
-					<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;" data-v-3a1264aa="">
+				<div>
+					<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;">
 						{% assign sorted_pages = site.categories.android | sort:"weight" %}
 						{% for post in sorted_pages %}
-						<div class="feature" data-v-3a1264aa="">
-							<h2 data-v-3a1264aa="">
-								<a data-instant="" href="{{ post.url }}" target="_blank" class="flex" data-v-3a1264aa="">
-									<div class="icon-svg mr10 icon-svg-panlinker" style="height:1.4rem;width:1.4rem;" data-v-39ac1fd5="" data-v-3a1264aa=""></div>{{ post.title }}
+						<div class="feature">
+							<h2>
+								<a href="{{ post.url }}" target="_blank" class="flex">
+									<div class="icon-svg mr10 icon-svg-panlinker" style="height:1.4rem;width:1.4rem;"></div>
+									{{ post.title }}
 									{% for tag in post.tags %}
 									{% for c in post.class %}
-									<span class="{{ c }}" data-v-3a1264aa="">{{ tag }}</span>
+									<span class="{{ c }}">{{ tag }}</span>
 									{% endfor %}
 									{% endfor %}
 								</a>
 							</h2>
 							{% for des in post.description %}
-							<p data-v-3a1264aa="">{{ des }}</p>
+							<p>{{ des }}</p>
 							{% endfor %}
-							<div class="icon-svg icon-svg-tm" style="height:16px;width:16px;" data-v-39ac1fd5="" data-v-3a1264aa=""></div>
+							<div class="icon-svg icon-svg-tm" style="height:16px;width:16px;"></div>
 							<p></p>
 						</div>
 						{% endfor %}
 					</div>
-					<!--<div class="tip" data-v-3a1264aa="">提示：末尾带有 <div class="icon-svg icon-svg-tm" style="height:16px;width:16px;" data-v-39ac1fd5="" data-v-3a1264aa=""></div> 图标的表示脚本</div>-->
+					<!--<div class="tip">提示：末尾带有 <div class="icon-svg icon-svg-tm" style="height:16px;width:16px;"></div>图标的表示脚本</div>-->
 				</div>
 			</div>
 			{% include footer.html %}

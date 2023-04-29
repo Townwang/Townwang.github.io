@@ -18,12 +18,12 @@ permalink: /android
 									{{ post.title }}
 									{% for tag in post.tags %}
 									{% for c in post.class %}
-									<span class="{{ c }}" data-v-3a1264aa="">{{ tag }}</span>
+									<span class="{{ c }}">{{ tag }}</span>
 									{% endfor %}
 									{% endfor %}
 								</a>
 							{% for des in post.description %}
-							<p>{{ des }}</p>
+							<p>{{ post.content }}</p>
 							{% endfor %}
 						</div>
 						{% endfor %}

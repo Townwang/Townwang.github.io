@@ -990,14 +990,16 @@ html{
 .home .feature{
     flex-grow:1;
     flex-basis:30%;
-    max-width:30%
+    max-width:30%;
+	margin:1rem;
 }
 .home .feature h2{
     font-size:1.4rem;
     font-weight:500;
     border-bottom:none;
     padding-bottom:0;
-    color:#3a5169
+    color:#3a5169;
+		margin:1rem;
 }
 .home .feature p{
     color:#4e6e8e
@@ -1014,7 +1016,8 @@ html{
     }
     .home .feature{
         max-width:100%;
-        padding:1rem 2.5rem
+        padding:1rem 2.5rem;
+			margin:1rem;
     }
 }
 @media (max-width:419px){
@@ -1030,23 +1033,24 @@ html{
         font-size:2rem
     }
     .home .hero .action,.home .hero .description,.home .hero h1{
-        margin:1.2rem auto
+        margin:1.2rem auto;
     }
     .home .hero .description{
-        font-size:1.2rem
+        font-size:1.2rem;
     }
     .home .hero .action-button{
         font-size:1rem;
-        padding:.6rem 1.2rem
+        padding:.6rem 1.2rem;
     }
     .home .feature h2{
-        font-size:1.25rem
+        font-size:1.25rem;
+			margin:1rem;
     }
 }
 .search-box{
     display:inline-block;
     position:relative;
-    margin-right:1rem
+    margin-right:1rem;
 }
 .search-box input{
     cursor:text;

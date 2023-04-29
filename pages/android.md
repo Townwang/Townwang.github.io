@@ -14,9 +14,7 @@ permalink: /android
 						{% assign sorted_pages = site.categories.android | sort:"weight" %}
 						{% for post in sorted_pages %}
 						<div class="feature">
-							<h2>
 								<a href="{{ post.url }}" target="_blank" class="flex">
-									<div class="icon-svg mr10 icon-svg-panlinker" style="height:1.4rem;width:1.4rem;"></div>
 									{{ post.title }}
 									{% for tag in post.tags %}
 									{% for c in post.class %}
@@ -24,12 +22,9 @@ permalink: /android
 									{% endfor %}
 									{% endfor %}
 								</a>
-							</h2>
 							{% for des in post.description %}
 							<p>{{ des }}</p>
 							{% endfor %}
-							<div class="icon-svg icon-svg-tm" style="height:16px;width:16px;"></div>
-							<p></p>
 						</div>
 						{% endfor %}
 					</div>

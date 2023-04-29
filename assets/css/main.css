@@ -1027,10 +1027,10 @@ html{
     }
     .home .hero img{
         max-height:210px;
-        margin:2rem auto 1.2rem
+        margin:2rem auto 1.2rem;
     }
     .home .hero h1{
-        font-size:2rem
+        font-size:2rem;
     }
     .home .hero .action,.home .hero .description,.home .hero h1{
         margin:1.2rem auto;
@@ -1044,7 +1044,7 @@ html{
     }
     .home .feature h2{
         font-size:1.25rem;
-			margin:1rem;
+		margin:1rem;
     }
 }
 .search-box{

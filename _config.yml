@@ -53,9 +53,6 @@ social-share-items: ['wechat', 'weibo', 'twitter','linkedin']
 #  主题皮肤
 theme-color: 'default'  # pink or default
 
-# 头部底纹: circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
-postPatterns: 'circuitBoard'
-
 # 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   weibo: '//weibo.com/townwang'

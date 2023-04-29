@@ -1080,3 +1080,8 @@ body{
     padding-top: 5rem;
     margin: auto;
 }
+.post-wrapper{
+	    max-width: 80%;
+	  padding-top: 5rem;
+    margin: auto;
+}

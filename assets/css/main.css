@@ -1076,5 +1076,7 @@ body{
     line-height: 26px
 }
 .post-content{
-	max-width:80%;
+    max-width: 80%;
+    padding-top: 5rem;
+    margin: auto;
 }

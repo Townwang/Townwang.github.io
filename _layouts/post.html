@@ -45,7 +45,7 @@
 <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
 
 {% include header.html %}
-
+	<main aria-labelledby="main-title" class="home">
 <div class="post-content" >
     {% if page.subtitle %}
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
@@ -66,5 +66,6 @@
 <script src="/assets/js/prism.js"></script>
 
 {% include baiduxzh.html%}
+</main>
 </body>
 </html>

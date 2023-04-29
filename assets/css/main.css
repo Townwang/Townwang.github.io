@@ -560,6 +560,10 @@ html{
     flex-basis:30%;
     max-width:30%;
 	margin:1rem;
+	border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
 }
 .home .feature h2{
     font-size:1.4rem;
@@ -567,7 +571,7 @@ html{
     border-bottom:none;
     padding-bottom:0;
     color:#3a5169;
-		margin:1rem;
+	margin:1rem;
 }
 .home .feature p{
     color:#4e6e8e
@@ -586,6 +590,10 @@ html{
         max-width:100%;
         padding:1rem 2.5rem;
 			margin:1rem;
+				    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
     }
 }
 @media (max-width:419px){
@@ -926,7 +934,11 @@ html{
 }
 .home .feature{
     max-width:100%;
-    padding:1rem 1rem
+    padding:1rem 1rem;
+	    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
 }
 
 @-webkit-keyframes easeOpacity-data-v-1b014d15{

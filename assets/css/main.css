@@ -1075,3 +1075,6 @@ body{
     font-family: Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
     line-height: 26px
 }
+.post-content{
+	max-width:80%;
+}

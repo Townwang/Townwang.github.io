@@ -1069,3 +1069,9 @@ body{
     letter-spacing: .6px;
     line-height: 22px
 }
+.post-excerpt {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    line-height: 26px
+}

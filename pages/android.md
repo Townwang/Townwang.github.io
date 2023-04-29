@@ -22,9 +22,7 @@ permalink: /android
 									{% endfor %}
 									{% endfor %}
 								</a>
-							{% for des in post.description %}
 							<p>{{ post.content }}</p>
-							{% endfor %}
 						</div>
 						{% endfor %}
 					</div>

@@ -5,7 +5,7 @@ description: 『企业中总结的经验』『编码中遇到的困难』『生�
 permalink: /android
 ---
 
-{% include header.html %}
+{% include header.html %}  
 
 <main aria-labelledby="main-title" class="home">
 			<div class="theme-default-content custom content__default">
@@ -32,4 +32,4 @@ permalink: /android
 				</div>
 			</div>
 			{% include footer.html %}
-		</main>
+</main>

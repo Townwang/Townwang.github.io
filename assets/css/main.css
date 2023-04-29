@@ -2315,10 +2315,7 @@ button.swiper-pagination-bullet{
     opacity:1;
     transition:opacity .3s
 }
-.google-adsense[data-v-344bc0a0]{
-    max-width:100%;
-    overflow:hidden
-}
+
 .number[data-v-11811efc],.price[data-v-11811efc]{
     font-weight:700;
     font-size:24px;
@@ -2333,20 +2330,14 @@ button.swiper-pagination-bullet{
     background-repeat:no-repeat;
     background-size:auto
 }
-.icon-grayscale[data-v-39ac1fd5]{
-    -moz-filter:grayscale(100%);
-    -ms-filter:grayscale(100%);
-    -o-filter:grayscale(100%);
-    filter:grayscale(100%);
-    filter:gray
-}
-.icon-svg-qr{
+
+.icon-svg-qr[data-v-39ac1fd5]{
     background-image:url(../icons/qr.svg)
 }
-.icon-svg-wechat{
+.icon-svg-wechat[data-v-39ac1fd5]{
     background-image:url(../icons/wechat.svg)
 }
-.icon-svg-search{
+.icon-svg-search[data-v-39ac1fd5]{
 	background-image:url(../icons/search.svg);
 }
 

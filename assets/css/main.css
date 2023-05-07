@@ -874,33 +874,40 @@ html{
 }
 
 .badge{
-    display:inline-block;
-    font-size:14px;
-    height:18px;
-    line-height:18px;
-    border-radius:3px;
-    padding:0 6px;
+    display: inline-block;
+    font-size: 9px;
+    height: 18px;
+    line-height: 17px;
+    border-radius: 3px;
+    padding: 0 3px;
     color:#fff;
     background-color:#42b983;
     margin:-1rem 0 0 .5rem
 }
+.badge.green,.badge.tip,.badge{
+    background-color:#42b983
+}
+.badge.error{
+    background-color:#da5961
+}
+.badge.warn,.badge.warning,.badge.yellow{
+    background-color:#e7c000
+}
+.badge+.badge{
+    margin-left:5px
+}
+
 .tip{
     color:#999;
     font-size:12px;
     text-align:center;
     padding-bottom:10px
 }
-.flex{
-    display:flex;
-    align-items:center;
-    flex-wrap:wrap
-}
+
 .mr10{
     margin-right:10px
 }
-.badge.error{
-    background-color:#da5961
-}
+
 .github-corner:hover .octo-arm{
     -webkit-animation:octocat-wave-data-v-3a1264aa .56s ease-in-out;
     animation:octocat-wave-data-v-3a1264aa .56s ease-in-out
@@ -963,11 +970,8 @@ html{
 
 .flex{
     display:inline-flex;
-    align-items:center
-}
-
-body{
-    margin:0!important
+    align-items:center;
+	
 }
 
 
@@ -1037,32 +1041,12 @@ body{
         margin-right:15px
     }
 }
-.badge{
-    display:inline-block;
-    font-size:14px;
-    height:18px;
-    line-height:18px;
-    border-radius:3px;
-    padding:0 6px;
-    color:#fff
-}
-.badge.green,.badge.tip,.badge{
-    background-color:#42b983
-}
-.badge.error{
-    background-color:#da5961
-}
-.badge.warn,.badge.warning,.badge.yellow{
-    background-color:#e7c000
-}
-.badge+.badge{
-    margin-left:5px
-}
+
 .post-date {
     float: right;
     color: #a9b0bc;
     display: inline-block;
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: .6px;
     line-height: 22px
 }

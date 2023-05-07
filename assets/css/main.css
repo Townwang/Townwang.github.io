@@ -1064,14 +1064,7 @@ html{
     box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
 }
 .post-title{
-    max-width: 80%;
-    margin: auto;
-    box-sizing: border-box;
-    padding: 2rem 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    line-height: 1.2rem;
-    box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
+	font-size: 1.2rem;
 }
 @media (max-width:500px){
 	.post-content{

@@ -1062,9 +1062,11 @@ html{
     margin-bottom: 2rem;
     line-height: 1.2rem;
     box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
+	font-size: 16px;
 }
 .post-title{
-	font-size: 1.2rem;
+	font-size: 20px;
+    margin-bottom: 3rem;
 }
 @media (max-width:500px){
 	.post-content{

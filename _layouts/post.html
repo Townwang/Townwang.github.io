@@ -47,12 +47,13 @@
 {% include header.html %}
 	<main aria-labelledby="main-title" class="home">
 <div class="post-content" >
+	<h1 class="post-title">{{ page.title }}</h1>
     {% if page.subtitle %}
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
     <article class="markdown-body">
                 {{ page.content }} 
-                     {% include psd.html %}
+              {% include psd.html %}
     </article>
     {% if site.social-share %}
     <div class="social-share-wrapper">

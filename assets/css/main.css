@@ -468,7 +468,7 @@ html{
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 5px;
-    box-shadow: 0 0 5px 1px #eee;
+    box-shadow: 0 0 2px 1px #eee;
     transition: all 200ms ease-out;
 }
 .home .feature h2{
@@ -497,7 +497,7 @@ html{
 		margin: 0.5rem;
 		padding: 0.5rem;
 		border-radius: 5px;
-		box-shadow: 0 0 5px 1px #eee;
+		box-shadow: 0 0 2px 1px #eee;
 		transition: all 200ms ease-out;
     }
 }
@@ -677,7 +677,7 @@ html{
     box-sizing:border-box;
 	padding:.7rem 1.5rem;
     line-height:2.2rem;
-    box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 2px 0px rgb(0 0 0 / 10%);
 }
 .navbar,.sidebar-mask{
     position:fixed;
@@ -976,7 +976,7 @@ html{
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 1.2rem;
-    box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 2px 0px rgb(0 0 0 / 10%);
 	font-size: 16px;
 }
 .post-title{

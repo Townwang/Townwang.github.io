@@ -21,7 +21,7 @@ permalink: /android
 									{% endfor %}
 									{% endfor %}
 								</a>
-							<p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}<time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time></p>
+							<p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 40}}<time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time></p>
 						</div>
 						{% endfor %}
 					</div>

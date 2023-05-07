@@ -284,19 +284,7 @@ body{
 .page{
     padding-left:20rem
 }
-.navbar{
-    z-index:20;
-    right:0;
-    height:3.6rem;
-    background-color:#fff;
-    box-sizing:border-box;
-    border-bottom:1px solid #eaecef
-}
-.navbar,.sidebar-mask{
-    position:fixed;
-    top:0;
-    left:0
-}
+
 .sidebar-mask{
     z-index:9;
     width:100vw;
@@ -578,13 +566,13 @@ html{
 	margin:0.5rem;
 }
 .home .feature p{
-    color:#4e6e8e
+    color:#666
 }
 .home .footer{
     padding:2.5rem;
     border-top:1px solid #eaecef;
     text-align:center;
-    color:#4e6e8e
+    color:#666
 }
 @media (max-width:719px){
     .home .features{
@@ -770,9 +758,21 @@ html{
     }
 }
 .navbar{
-    padding:.7rem 1.5rem;
-    line-height:2.2rem
+    z-index:20;
+    right:0;
+    height:3.6rem;
+    background-color:#fff;
+    box-sizing:border-box;
+	padding:.7rem 1.5rem;
+    line-height:2.2rem;
+    box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
 }
+.navbar,.sidebar-mask{
+    position:fixed;
+    top:0;
+    left:0
+}
+
 .navbar a,.navbar img,.navbar span{
     display:inline-block
 }
@@ -805,7 +805,7 @@ html{
 }
 @media (max-width:719px){
     .navbar{
-        padding-left:4rem
+     text-align-last: center;
     }
     .navbar .can-hide{
         display:none
@@ -1068,7 +1068,7 @@ body{
 }
 .post-excerpt {
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
     line-height: 26px
 }

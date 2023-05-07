@@ -34,7 +34,7 @@ permalink: /open
                     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
                     {% endif %}
                     {% if post.subtitle.size==0 or post.subtitle==nil %}
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 40}}</p>
                     {% endif %}
                 </section>
                 <footer class="post-meta">

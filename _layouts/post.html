@@ -56,17 +56,12 @@
     </article>
 	
 	<div class="page-links">
-        {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
             <a href="{{ "/" | relative_url }}" class="page-link" title="Previous Page">&laquo;</a>
-            {% else %}
+           
             <a href="/page{{ paginator.previous_page }}/" class="page-link" title="Previous Page">&laquo;</a>
-            {% endif %}
-        {% endif %}
+  
         <div id="page-link-container"></div>
-        {% if paginator.next_page %}
         <a href="/page{{ paginator.next_page }}/" class="page-link">&raquo;</a>
-        {% endif %}
     </div>
 </div>
 {% include footer.html %}

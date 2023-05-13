@@ -997,3 +997,19 @@ html{
 	padding-top: 5rem;
     margin: auto;
 }
+
+.page-links{
+	margin:0 auto;
+	width:80%;
+}
+.page-left{
+	width:100px;
+	height:20px;
+	float:left;
+}
+.page-right{
+	width:100px;
+	height:20px;
+	margin-left:100px;
+}
+

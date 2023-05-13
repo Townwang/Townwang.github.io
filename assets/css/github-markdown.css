@@ -5,6 +5,7 @@
 
 .markdown-body {
   -ms-text-size-adjust: 100%;
+  text-size-adjust:100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   color: #24292e;
@@ -154,7 +155,6 @@
 
 .markdown-body a {
   color: #00c8fa;
-  -webkit-text-decoration-skip: objects;
 text-decoration:none;
 }
 

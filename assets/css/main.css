@@ -978,27 +978,25 @@ html{
     top: 40%;
     z-index: 999;
     border-radius: 5px;
+	content:url(/assets/img/wechat_share.png);
 }
-.succ-pop img{
-    width: 100%;
-    height: 15rem;
-}
+
 @media (max-width:719px){
-    .succ-pop img{
-    width: 100%;
+    .succ-pop{
     height: 15rem;
+	content:url(/assets/img/wechat_share.png);
 	}
 }
 @media (max-width:529px){
-    .succ-pop img{
-    width: 100%;
+    .succ-pop{
     height: 15rem;
+	content:url(/assets/img/wechat_share.png);
 	}
 }
 @media (max-width:369px){
-    .succ-pop img{
-    width: 100%;
+    .succ-pop{
     height: 15rem;
+	content:url(/assets/img/wechat_share.png);
 	}
 }
 .post-date {

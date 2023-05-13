@@ -54,9 +54,9 @@
     </article>
 	
 	<div class="page-links">
-        <a href="{{ "/" | relative_url }}" class="page-link" title="Previous Page">&laquo;</a>
+        <a href="{{ page.next.url }}" class="page-link" title="Previous Page">&laquo;</a>
         <div id="page-link-container"></div>
-        <a href="/page{{ paginator.next_page }}/" class="page-link">&raquo;</a>
+        <a href="{{ page.previous.url }}" class="page-link">&raquo;</a>
     </div>
 </div>
 {% include footer.html %}

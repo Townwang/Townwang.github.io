@@ -1,31 +1,31 @@
 <head>
 	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="Content-Language" content="zh-CN"/>
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <meta http-equiv="X-UA-Compatible" content="edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="renderer" content="webkit"/>
-    <meta name="author"  content="{{ site.author }}"/>
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}"/>
-    <meta itemprop="image" content="{{ site.image }}"  alt="{{site.title}}"/>
-    <meta name="description" itemprop="description" content="{{ site.description }}"/>
-    <meta name="keywords"  content="{{ site.keyword }}"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="zh-CN">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta name="author"  content="{{ site.author }}">
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta itemprop="image" content="{{ site.image }}"  alt="{{site.title}}">
+    <meta name="description" itemprop="description" content="{{ site.description }}">
+    <meta name="keywords"  content="{{ site.keyword }}">
     <!-- Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}"/>
-    <meta property="og:type" content="blog"/>
-    <meta property="og:image" content="{{ site.image }}" alt="{{site.title}}"/>
-    <meta property="og:description" content="{{ site.description }}"/>
-    <meta property="og:site_name" content="{{ site.title }}"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-	<meta name="theme-color" content="#25a2e3"/>
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="blog">
+    <meta property="og:image" content="{{ site.image }}" alt="{{site.title}}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="theme-color" content="#25a2e3">
 	
-	<link rel="canonical"type="text/html" charset="UTF-8" href="{{ page.url | prepend: site.url }}"/>
-	<link rel="icon" href="/favicon.ico"/>
+	<link rel="canonical"type="text/html" charset="UTF-8" href="{{ page.url | prepend: site.url }}">
+	<link rel="icon" href="/favicon.ico">
 	{% for c in site.css %}
-	<link rel="stylesheet"  type="text/css" href="{{ c[1] }}"/>
+	<link rel="stylesheet"  type="text/css" href="{{ c[1] }}">
     {% endfor %}
 	{% for j in site.js %}
-	<script rel="stylesheet"  type="text/javascript" href="{{ j[1] }}"/>
+	<script rel="stylesheet"  type="text/javascript" href="{{ j[1] }}">
     {% endfor %}
 </head>

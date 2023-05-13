@@ -28,7 +28,7 @@ author: 'Town'
 nickname: 'Town'
 bio: 'Android开发者,软件破解,美化,爱好者&文科中的技术宅'
 avatar: '/assets/img/profile.png'
-
+github: '//github.com/Townwang'
 # 开启搜索
 search: true
 
@@ -47,7 +47,6 @@ sns:
   weibo: '//weibo.com/townwang'
   twitter: '//twitter.com/Townwang'
   linkedin: ''
-  github: '//github.com/Townwang'
 
 #  设置标签
 recommend-tags: true #显示推荐标签

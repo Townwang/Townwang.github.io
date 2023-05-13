@@ -471,6 +471,9 @@ html{
     box-shadow: 0 0 2px 1px #eee;
     transition: all 200ms ease-out;
 }
+.home .feature:hover {
+    box-shadow: 0 0 2px 1px #00a2e8cf;
+}
 .home .feature h2{
     font-size:1.4rem;
     font-weight:500;
@@ -480,7 +483,7 @@ html{
 	margin:0.5rem;
 }
 .home .feature p{
-    color:#666
+    color:#999
 }
 .home .footer{
     padding:1.5rem;
@@ -500,6 +503,9 @@ html{
 		box-shadow: 0 0 2px 1px #eee;
 		transition: all 200ms ease-out;
     }
+	.home .feature:hover {
+		box-shadow: 0 0 2px 1px #00a2e8cf;
+	}
 }
 @media (max-width:419px){
     .home{
@@ -956,11 +962,11 @@ html{
 
 .post-date {
     float: right;
+    display: flow-root;
     color: #a9b0bc;
-    display: inline-block;
     font-size: 10px;
     letter-spacing: .6px;
-    line-height: 22px
+    margin-top: inherit;
 }
 .post-excerpt {
     margin-top: 8px;

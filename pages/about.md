@@ -6,6 +6,7 @@ permalink: /about
 
 {% include header.html %}
 
+
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>我的个人信息™</h2>
 </div>

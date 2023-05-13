@@ -7,23 +7,21 @@
     <meta name="renderer" content="webkit">
     <meta name="author"  content="{{ site.author }}">
     <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}"/>
-    <meta itemprop="image" content="https://i.loli.net/2018/12/28/5c258b168b588.jpg"  alt="{{site.title}}"/>
+    <meta itemprop="image" content="{{ site.image }}"  alt="{{site.title}}"/>
     <meta name="description" itemprop="description" content="{{ site.description }}">
     <meta name="keywords"  content="{{ site.keyword }}">
     <!-- Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:type" content="blog">
-    <meta property="og:image" content="https://i.loli.net/2018/12/28/5c258b168b588.jpg" alt="{{site.title}}">
+    <meta property="og:image" content="{{ site.image }}" alt="{{site.title}}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="{{ site.title }}">
 	<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical"type="text/html" charset="UTF-8" href="{{ page.url | prepend: site.url }}"/>
-    <link rel="stylesheet" href="https://at.alicdn.com/t/font_roc50gemkxpw4s4i.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/github-markdown.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/prism.css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+	{% for c in site.css %}
+	<link rel="stylesheet" href="{{ c[1] }}">
+    {% endfor %}
 	<link rel="icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" size="180x180" type="image/png" href="/apple-touch-icon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<meta name="theme-color" content="#25a2e3">
 </head>

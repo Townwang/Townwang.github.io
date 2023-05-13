@@ -28,21 +28,21 @@ description: 在这里见证我的成长历程!
 					<div class="features">
 						{% assign sorted_pages = site.categories.open | sort:"weight" %}
 						{% for post in sorted_pages %}
-						<div class="feature">
+						<a class="feature" href="{{ post.url }}">
 							<h2>
-								<a data-instant="" href="{{ post.url }}" target="_blank" class="flex">
+								<div class="flex">
 									<div class="icon-svg mr10 icon-svg-panlinker" style="height:1.4rem;width:1.4rem;"></div>{{ post.title }}
 									{% for tag in post.tags %}
 									{% for c in post.class %}
 									<span class="{{ c }}">{{ tag }}</span>
 									{% endfor %}
 									{% endfor %}
-								</a>
+								</div>
 							</h2>
 							{% for des in post.description %}
 							<p>{{ des }}</p>
 							{% endfor %}
-						</div>
+						</a>
 						{% endfor %}
 					</div>
 					<!--<div class="tip" data-v-3a1264aa="">提示：末尾带有 <div class="icon-svg icon-svg-tm" style="height:16px;width:16px;"></div> 图标的表示脚本</div>-->

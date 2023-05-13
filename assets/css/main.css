@@ -967,6 +967,10 @@ html{
     top: 0;
     z-index: 99;
 }
+
+.fadenull{
+	
+}
 /*弹出层*/ 
 .succ-pop{
     width: 400px;
@@ -979,6 +983,10 @@ html{
     margin-top: -150px;
     z-index: 999;
     border-radius: 5px;
+}
+
+.succ-popnull{
+
 }
 
 .post-date {

@@ -983,19 +983,19 @@ html{
 
 @media (max-width:719px){
     .succ-pop{
-    height: 15rem;
+    height: 10rem;
 	content:url(/assets/img/wechat_share.png);
 	}
 }
 @media (max-width:529px){
     .succ-pop{
-    height: 15rem;
+    height: 8rem;
 	content:url(/assets/img/wechat_share.png);
 	}
 }
 @media (max-width:369px){
     .succ-pop{
-    height: 15rem;
+    height: 5rem;
 	content:url(/assets/img/wechat_share.png);
 	}
 }

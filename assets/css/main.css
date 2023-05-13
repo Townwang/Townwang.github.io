@@ -968,9 +968,6 @@ html{
     z-index: 99;
 }
 
-.fadenull{
-	
-}
 /*弹出层*/ 
 .succ-pop{
     width: 400px;
@@ -985,9 +982,6 @@ html{
     border-radius: 5px;
 }
 
-.succ-popnull{
-
-}
 
 .post-date {
     float: right;

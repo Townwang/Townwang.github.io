@@ -75,17 +75,20 @@ description: 在这里见证我的成长历程!
 				
 			</div>
 			<script text="text/javaScript">
-			  document.getElementById('wechat').onclick = function(){
-             document.getElementById("bg").setAttribute("class","fade");
-				  document.getElementById("showDialog").setAttribute("class","succ-pop");
-				  document.getElementById('app').style.display = "block";
-         }
-		 
-		   document.getElementById('app').onclick = function(){
-             document.getElementById("bg").setAttribute("class","");
-				  document.getElementById("showDialog").setAttribute("class","");
-         }
+			var inner = document.getElementById('wechat');
+            var container = document.getElementById('app')
 
+inner.addEventListener('click', event => {
+  event.stopPropagation();  // chromium内核
+  window.event.cancelBubble = true;  // IE内核
+     document.getElementById("bg").setAttribute("class","fade");
+				  document.getElementById("showDialog").setAttribute("class","succ-pop");
+})
+
+container.addEventListener('click', event => {
+     document.getElementById("bg").setAttribute("class","");
+			 document.getElementById("showDialog").setAttribute("class","");
+})
 			</script>
 			{% include footer.html %}
 		</main>

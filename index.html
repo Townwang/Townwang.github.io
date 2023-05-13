@@ -75,17 +75,17 @@ description: 在这里见证我的成长历程!
 				
 			</div>
 			<script text="text/javaScript">
-			var w = document.getElemntById('wechat');
+			var w = document.getElementById('wechat');
 			
 			w.onclick = function(){
-				document.getElemntById("bg").addClass("fade");
-				document.getElemntById("showDialog").addClass("succ-pop");
+				document.getElementById("bg").addClass("fade");
+				document.getElementById("showDialog").addClass("succ-pop");
 			}
-			var a = document.getElemntById('app')
+			var a = document.getElementById('app')
 			
 			a.onclick = function(){
-				document.getElemntById("bg").removeClass("fade");
-				document.getElemntById("showDialog").removeClass("succ-pop");
+				document.getElementById("bg").removeClass("fade");
+				document.getElementById("showDialog").removeClass("succ-pop");
 			}
 			</script>
 			{% include footer.html %}

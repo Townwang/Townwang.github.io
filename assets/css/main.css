@@ -979,11 +979,6 @@ html{
     margin-top: -150px;
     z-index: 999;
     border-radius: 5px;
-}   
-.succ-pop h3.title{
-    text-align: center;
-    font-size: 22px;
-    color: #ce002c;
 }
 
 .post-date {

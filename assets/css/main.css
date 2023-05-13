@@ -999,17 +999,22 @@ html{
 }
 
 .page-links{
-	margin:0 auto;
-	width:80%;
+	margin:20px auto;
+	width:100%;
 }
 .page-links a.page-left{
-	width:100px;
-	height:20px;
+	width:auto;
 	float:left;
+    padding:10PX 10PX 10PX 10PX;
+}
+.page-links a.page-left:hover{
+    color:#ff03e0;
 }
 .page-links a.page-right{
-	width:100px;
-	height:20px;
-	margin-left:100px;
+	width:auto;
+    float:right;
+    padding:10PX 10PX 10PX 10PX;
 }
-
+.page-links a.page-right:hover{
+    color:#ff03e0;
+}

@@ -75,19 +75,17 @@ description: 在这里见证我的成长历程!
 				
 			</div>
 			<script text="text/javaScript">
-			 document.addEventListener('wechat', handlerClick);
- 
-			  function handlerClick(event) {
-				let isSelf = document.getElementById('wechat').contains(event.target);
-				if(!isSelf) {
-				  document.getElementById("bg").setAttribute("class","");
-				  document.getElementById("showDialog").setAttribute("class","");
-				}else {
-				  document.getElementById("bg").setAttribute("class","fade");
+			document.addEventListener('mousedown', (e) => {
+    let t = document.getElementById('wechat); 
+    if (!e.path.includes(t)) {
+         document.getElementById("bg").setAttribute("class","fade");
 				  document.getElementById("showDialog").setAttribute("class","succ-pop");
-				}
+    } else {
+     document.getElementById("bg").setAttribute("class","");
+				  document.getElementById("showDialog").setAttribute("class","");
+    }
+})
 
-			
 			</script>
 			{% include footer.html %}
 		</main>

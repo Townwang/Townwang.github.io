@@ -21,6 +21,11 @@
 	{% for c in site.css %}
 	<link rel="stylesheet"  type="text/css" href="{{ c[1] }}">
     {% endfor %}
+	
+	{% for j in site.js %}
+	<link rel="stylesheet"  type="text/javascript" href="{{ j[1] }}">
+    {% endfor %}
+	
 	<link rel="icon" href="/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<meta name="theme-color" content="#25a2e3">

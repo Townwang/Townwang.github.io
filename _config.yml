@@ -17,6 +17,10 @@ css:
    prism: '/assets/css/prism.css'
    main: '/assets/css/main.css'
    
+# JS
+js:
+   wechat: '/assets/js/wechat.js'
+   
 
 # 导航栏
 nav:
@@ -56,7 +60,6 @@ theme-color: 'default'  # pink or default
 sns:
   weibo: '//weibo.com/townwang'
   twitter: '//twitter.com/Townwang'
-  linkedin: ''
 
 #  设置标签
 recommend-tags: true #显示推荐标签

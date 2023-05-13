@@ -15,24 +15,12 @@ nav:
   软件: 'software'
   文档: 'document'
   感悟: 'life'
-  我: 'about'
 
 # 友情链接
 friends:
-  胡博靖: 'https://hubojing.github.io/'
-  Secret Blog: 'https://blog.isecret.vip/'
-  YZK博客: 'http://yzkos.com/'
   TMaize'Blog: 'http://blog.tmaize.net/'
   唯美陌阡: "https://hexo.xxrar.com/"
   蓝果科技组: "http://www.nantz.top"
-  程序员工具: "http://www.jianshushe.com"
-  tea9的博客: "https://tea9.github.io"
-  曜日庄主: "https://sunbossrs.github.io"
-  Zeech: "https://zcheng.ren"
-  胡凯: "http://www.hukaivip.cn/"
-  卡盟: "http://town.ds175.cn/"
-  梁钟霖: "https://www.liangzl.com"
-  安卓基础课程: "https://codelabs.developers.google.com/android-kotlin-fundamentals"
   mongona: https://www.mongona.com
 
 # Author 配置博主信息

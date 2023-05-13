@@ -25,6 +25,8 @@ permalink: /android
 						</a>
 						{% endfor %}
 					</div>
+					
+					{% include pageNav.html %}
 					<!--<div class="tip">提示：末尾带有 <div class="icon-svg icon-svg-tm" style="height:16px;width:16px;"></div> 图标的表示脚本</div>-->
 				</div>
 			</div>

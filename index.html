@@ -78,14 +78,14 @@ description: 在这里见证我的成长历程!
 			var w = document.getElementById('wechat');
 			
 			w.onclick = function(){
-				document.getElementById("bg").addClass("fade");
-				document.getElementById("showDialog").addClass("succ-pop");
+				$("bg").addClass("fade");
+				$("showDialog").addClass("succ-pop");
 			}
 			var a = document.getElementById('app')
 			
 			a.onclick = function(){
-				document.getElementById("bg").removeClass("fade");
-				document.getElementById("showDialog").removeClass("succ-pop");
+				$("bg").removeClass("fade");
+				$("showDialog").removeClass("succ-pop");
 			}
 			</script>
 			{% include footer.html %}

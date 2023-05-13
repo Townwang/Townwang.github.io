@@ -43,10 +43,6 @@ permalink: /open
             </article>
         {% endfor %}
 
-        {% if paginator.total_pages > 1 %}
-            {% include pageNav.html %}
-        {% endif %}
-
     </div>
 
    {%include sidebar.html%}

@@ -9,7 +9,7 @@ permalink: /android
 <main aria-labelledby="main-title" class="home">
 			<div class="theme-default-content custom content__default">
 				<div>
-					<div class="features" style="margin-top: 0;padding-top: 0;border-top: none;">
+					<div class="features" >
 						{% assign sorted_pages = site.categories.android | sort:"weight" %}
 						{% for post in sorted_pages %}
 						<a class="feature" href="{{ post.url }}">

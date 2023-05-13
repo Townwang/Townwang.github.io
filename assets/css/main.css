@@ -1005,7 +1005,6 @@ html{
 .page-links a.page-left{
 	width:auto;
 	float:left;
-    padding:10PX 10PX 10PX 10PX;
 }
 .page-links a.page-left:hover{
     color:#ff03e0;
@@ -1013,7 +1012,6 @@ html{
 .page-links a.page-right{
 	width:auto;
     float:right;
-    padding:10PX 10PX 10PX 10PX;
 }
 .page-links a.page-right:hover{
     color:#ff03e0;

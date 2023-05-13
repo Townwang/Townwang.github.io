@@ -1002,12 +1002,12 @@ html{
 	margin:0 auto;
 	width:80%;
 }
-.page-left{
+.page-links a.page-left{
 	width:100px;
 	height:20px;
 	float:left;
 }
-.page-right{
+.page-links a.page-right{
 	width:100px;
 	height:20px;
 	margin-left:100px;

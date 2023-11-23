@@ -251,6 +251,7 @@ GEM
       unf_ext
     unf_ext (0.0.9.1-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
+    webrick (1.8.1)
     zeitwerk (2.6.12)
 
 PLATFORMS
@@ -258,6 +259,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 215)
+  webrick (~> 1.8)
 
 BUNDLED WITH
-   2.3.22
+   2.4.22

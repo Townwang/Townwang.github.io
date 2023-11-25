@@ -83,4 +83,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 #编码
-encoding: UTF-8
+encoding: utf-8

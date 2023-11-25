@@ -79,6 +79,6 @@ kramdown:
 #订阅
 RSS: true
 # Plugins
-plugins: ['jekyll-paginate']
+plugins: ['jekyll-paginate','faraday-retry']
 #编码
 encoding: utf-8

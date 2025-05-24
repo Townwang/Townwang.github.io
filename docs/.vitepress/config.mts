@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "OpenApe",
-  description: "A hub for diverse Android open-source projects. For more open-source content, search the official account 👉 "OpenApe"",
+  description: "A hub for diverse Android open-source projects. For more open-source content, search the official account 👉 'OpenApe'",
   lang: "zh-Hans",
   base: '/',
   themeConfig: {

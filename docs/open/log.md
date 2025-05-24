@@ -7,6 +7,6 @@ features:
     linkText: go repo
     link: https://github.com/Townwang/Log
 ---
-## Log <Badge type="tip" text="lib" />
+## Log <Badge type="warning" text="out of service" />
 
 Breaking android log word limits and automatically formatting json.

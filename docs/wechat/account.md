@@ -1,6 +1,9 @@
 ---
 layout: home
-
+hero:
+  name: 
+  text:
+  tagline:  "支持一下，点个关注再走也不迟哈。 "
 features:
   - title: 开源人
     details: 提升自己，无处不在

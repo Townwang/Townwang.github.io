@@ -13,7 +13,7 @@ hero:
       text: GitHub
       link: https://github.com/Townwang
   image:
-    src: /logo.svg
+    src: /ape.svg
 features:
   - title: yaohuo APP
     details: "A forum application for Android, built upon a locally encapsulated crawler framework"

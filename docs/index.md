@@ -7,8 +7,8 @@ hero:
   tagline:  "a hub for diverse open-source projects. "
   actions:
     - theme: brand
-      text: What is software development?
-      link: /
+      text: WeChat Subscription Account?
+      link: /wechat/account
     - theme: alt
       text: GitHub
       link: https://github.com/Townwang
@@ -35,19 +35,5 @@ features:
     linkText: See
     link: /open/log
 ---
-
-### 公众号
-
-::: tip 开源人
-发布高质量软件破解文章
-:::
-
-::: tip 软件学
-发布高质量开发学习文章
-:::
-
-::: tip 软件人
-发布各种软件推荐文章
-:::
 
 

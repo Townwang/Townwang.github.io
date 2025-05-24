@@ -3,21 +3,15 @@ layout: home
 
 hero:
   name: Open Project
-  text: Vite & Vue Powered Static Site Generator
-  tagline: Markdown to Beautiful Docs in Minutes
+  text:
+  tagline:  "A hub for diverse Android open-source projects. For more open-source content, search the official account 👉 'OpenApe'"
   actions:
     - theme: brand
-      text: What is VitePress?
-      link: /guide/what-is-vitepress
-    - theme: alt
-      text: Quickstart
-      link: /guide/getting-started
+      text: What is software development?
+      link: /
     - theme: alt
       text: GitHub
-      link: https://github.com/vuejs/vitepress
-  image:
-    src: /vitepress-logo-large.svg
-    alt: VitePress
+      link: https://github.com/Townwang
 features:
   - title: yaohuo APP
     details: "A forum application for Android, built upon a locally encapsulated crawler framework"

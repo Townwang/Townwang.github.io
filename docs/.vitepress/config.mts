@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "开源人",
-  description: "一个汇聚了各种安卓开源的小站，更多开源请搜索公众号👉“开源人”",
+  title: "OpenApe",
+  description: "A hub for diverse Android open-source projects. For more open-source content, search the official account 👉 "OpenApe"",
   lang: "zh-Hans",
   base: '/',
   themeConfig: {

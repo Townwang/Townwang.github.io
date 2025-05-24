@@ -34,19 +34,20 @@ features:
     details: "Breaking android log word limits and automatically formatting json."
     linkText: See
     link: /open/log
-
-hero:
-  tagline:  "公众号"
-
-features:
-  - title: 开源人
-    details: "发布高质量软件破解文章"
-features:
-  - title: 软件学
-    details: "发布高质量开发学习文章"
-features:
-  - title: 软件人
-    details: "发布各种软件推荐文章"
 ---
+
+### 公众号
+
+::: tip 开源人
+发布高质量软件破解文章
+:::
+
+::: tip 软件学
+发布高质量开发学习文章
+:::
+
+::: tip 软件人
+发布各种软件推荐文章
+:::
 
 

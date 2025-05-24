@@ -2,10 +2,7 @@
 layout: home
 
 hero:
-  name: ""
-  text: ""
   tagline: Open Project
-
 
 features:
   - title: yaohuo APP

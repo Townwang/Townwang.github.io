@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Open Project
   text:
-  tagline:  "A hub for diverse Android open-source projects. For more open-source content, search the official account 👉 'OpenApe'"
+  tagline:  "a hub for diverse open-source projects. "
   actions:
     - theme: brand
       text: What is software development?
@@ -12,6 +12,8 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/Townwang
+  image:
+    src: /big_logo.svg
 features:
   - title: yaohuo APP
     details: "A forum application for Android, built upon a locally encapsulated crawler framework"

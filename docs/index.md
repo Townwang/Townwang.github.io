@@ -2,8 +2,22 @@
 layout: home
 
 hero:
-  tagline: Open Project
-
+  name: Open Project
+  text: Vite & Vue Powered Static Site Generator
+  tagline: Markdown to Beautiful Docs in Minutes
+  actions:
+    - theme: brand
+      text: What is VitePress?
+      link: /guide/what-is-vitepress
+    - theme: alt
+      text: Quickstart
+      link: /guide/getting-started
+    - theme: alt
+      text: GitHub
+      link: https://github.com/vuejs/vitepress
+  image:
+    src: /vitepress-logo-large.svg
+    alt: VitePress
 features:
   - title: yaohuo APP
     details: "A forum application for Android, built upon a locally encapsulated crawler framework"
@@ -25,3 +39,5 @@ features:
     linkText: See
     link: /open/log
 ---
+
+

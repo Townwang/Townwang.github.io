@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
       logo: { src: '/logo.svg', width: 24, height: 24 },
     nav: [
-      { text: '首页', link: '/' },
+      { text: 'Home', link: '/' },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Townwang' }
@@ -17,7 +17,7 @@ export default defineConfig({
 		hostname: 'https://townwang.com'
 	},
     footer: {
-      copyright: "版权所有 © 2012-2025 <a href='https://github.com/Townwang'>Townwang</a>"
+      copyright: "Copyright  © 2012-2025 <a href='https://github.com/Townwang'>Townwang</a>"
     },
   }
 })

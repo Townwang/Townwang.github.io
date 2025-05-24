@@ -14,6 +14,7 @@ hero:
       link: https://github.com/Townwang
   image:
     src: /logo.svg
+	alt: VitePress
 features:
   - title: yaohuo APP
     details: "A forum application for Android, built upon a locally encapsulated crawler framework"

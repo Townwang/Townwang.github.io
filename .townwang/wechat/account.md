@@ -18,5 +18,5 @@ features:
   - title: 软件人
     details: 好用软件，随机推荐
     linkText: 查看公众号
-    link: https://mp.weixin.qq.com/s/ilScQM_Q6Ma3wGC8i0m7nw
+    link: https://mp.weixin.qq.com/s/rwVjkNjG_qRdcLHZQFYebg
 ---

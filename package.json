@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev .townwang",
+    "docs:build": "vitepress build .townwang",
+    "docs:preview": "vitepress preview .townwang"
+  }
+}

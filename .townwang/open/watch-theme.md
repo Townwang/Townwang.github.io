@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Download
-      link: /
+      link: https://github.com/Townwang/watch-theme/releases/download/Gadgetbridge/gadgetbridge.nightly_0.87.1.apk
   image:
     src: /ape.svg
 features:

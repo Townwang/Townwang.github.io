@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "OpenApe",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]]
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   description: "A hub for diverse Android open-source projects. For more open-source content, search the official account 👉 'OpenApe'",
     themeConfig: {
       logo: { src: '/logo.svg', width: 24, height: 24 },

@@ -12,7 +12,7 @@ hero:
   image:
     src: /ape.svg
 features:
-  - icon: https://github.com/Townwang/watch-theme/releases/download/3d%E6%9C%BA%E6%A2%B0%E8%8B%8D%E7%A9%B9/3d.jpg
+  - icon: <img src="https://github.com/Townwang/watch-theme/releases/download/3d%E6%9C%BA%E6%A2%B0%E8%8B%8D%E7%A9%B9/3d.jpg"/>
     title: 3D机械苍穹
     details: "3D机械苍穹"
     linkText: Download

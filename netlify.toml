@@ -22,7 +22,7 @@
   from = "/llms.md"
   status = 301
   to = "/llms.txt"
-
+  
 [[redirects]]
   from = "/llms-full.md"
   status = 301

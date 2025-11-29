@@ -1,0 +1,29 @@
+[build.environment]
+  NODE_VERSION = "24"
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
+
+[build]
+  publish = ".townwang/.vitepress/dist"
+  command = "npm run docs:build"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    cache-control = '''
+    max-age=31536000,
+    immutable'''
+
+[[headers]]
+  for = "/_translations/*"
+  [headers.values]
+    x-robots-tag = "noindex"
+
+[[redirects]]
+  from = "/llms.md"
+  status = 301
+  to = "/llms.txt"
+  
+[[redirects]]
+  from = "/llms-full.md"
+  status = 301
+  to = "/llms-full.txt"

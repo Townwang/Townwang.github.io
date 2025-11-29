@@ -1,4 +1,4 @@
-name: Test
+name: pre build
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - name: Setup Pages
+      - name: Setup Pre Build
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: npm ci
